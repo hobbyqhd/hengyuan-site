@@ -1,0 +1,39 @@
+<h1>Request for quote (RFQ)</h1>
+<p class="lead">This form uses a <code>mailto:</code> GET submission so it works on static hosting without a backend. Replace the placeholder email before production use.</p>
+<div class="card" style="margin-bottom: 1.25rem;">
+  <h2>Formspree alternative (documented)</h2>
+  <p>To use <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a>, create a form, set <code>action="https://formspree.io/f/YOUR_ID"</code> with <code>method="POST"</code>, and remove the mailto fields. Keep honeypot/spam options enabled.</p>
+</div>
+<form class="rfq" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
+  <div>
+    <label for="company">Company / organization</label>
+    <input id="company" name="company" required autocomplete="organization" />
+  </div>
+  <div>
+    <label for="contact">Contact name</label>
+    <input id="contact" name="contact" required autocomplete="name" />
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required autocomplete="email" />
+  </div>
+  <div>
+    <label for="phone">Phone / WhatsApp</label>
+    <input id="phone" name="phone" placeholder="+86 placeholder - client to supply" autocomplete="tel" />
+    <small>Replace with an approved international number.</small>
+  </div>
+  <div>
+    <label for="scope">Scope summary</label>
+    <textarea id="scope" name="scope" rows="5" required placeholder="Pipe type, diameter  x  wall, grade, coating system, standard (e.g., API 5L, ISO), quantity, delivery region, required inspection..."></textarea>
+  </div>
+  <div>
+    <label for="standard">Invoked standards / data sheets</label>
+    <input id="standard" name="standard" placeholder="e.g., ISO 21809-1, owner DEP, etc." />
+  </div>
+  <div>
+    <label for="needdate">Target response date</label>
+    <input id="needdate" name="needdate" type="date" />
+  </div>
+  <p class="footnote">Browsers may warn before opening the mail client. For reliable capture, migrate to Formspree or a corporate endpoint.</p>
+  <button class="btn btn-primary" type="submit">Compose email</button>
+</form>

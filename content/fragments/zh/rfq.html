@@ -1,0 +1,39 @@
+<h1>询价（RFQ）</h1>
+<p class="lead">本表单使用 <code>mailto:</code> 的 GET 方式，便于纯静态托管；正式上线前请替换占位邮箱。</p>
+<div class="card" style="margin-bottom: 1.25rem;">
+  <h2>Formspree 备选（说明）</h2>
+  <p>在 <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a> 创建表单后，将 <code>action</code> 设为 <code>https://formspree.io/f/YOUR_ID</code>，<code>method="POST"</code>，并启用反垃圾选项。</p>
+</div>
+<form class="rfq" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
+  <div>
+    <label for="company">公司 / 机构</label>
+    <input id="company" name="company" required autocomplete="organization" />
+  </div>
+  <div>
+    <label for="contact">联系人</label>
+    <input id="contact" name="contact" required autocomplete="name" />
+  </div>
+  <div>
+    <label for="email">邮箱</label>
+    <input id="email" name="email" type="email" required autocomplete="email" />
+  </div>
+  <div>
+    <label for="phone">电话 / WhatsApp</label>
+    <input id="phone" name="phone" placeholder="+86 占位 — 客户填写" autocomplete="tel" />
+    <small>请替换为批准的对外号码。</small>
+  </div>
+  <div>
+    <label for="scope">范围摘要</label>
+    <textarea id="scope" name="scope" rows="5" required placeholder="管型、外径×壁厚、钢级、涂层体系、标准（如 API 5L、ISO）、数量、交付地区、检验要求…"></textarea>
+  </div>
+  <div>
+    <label for="standard">适用标准 / 数据表</label>
+    <input id="standard" name="standard" placeholder="如 ISO 21809-1、业主 DEP 等" />
+  </div>
+  <div>
+    <label for="needdate">期望回复日期</label>
+    <input id="needdate" name="needdate" type="date" />
+  </div>
+  <p class="footnote">浏览器可能在打开邮件客户端前提示；若需可靠收集，请迁移到 Formspree 或企业接口。</p>
+  <button class="btn btn-primary" type="submit">撰写邮件</button>
+</form>
