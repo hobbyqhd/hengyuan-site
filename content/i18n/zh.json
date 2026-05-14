@@ -23,9 +23,12 @@
     "coatCte": "环氧煤沥青",
     "resComp": "防腐层对比",
     "lang": "English",
-    "langHref": "/en/index.html"
+    "langHref": "/en/index.html",
+    "footerCompany": "公司与业务",
+    "footerLegal": "法律信息"
   },
   "footer": {
+    "tagline": "防腐钢管、管件与管线配套，服务能源与基础设施。",
     "line1": "宏科华管道装备有限公司 — 防腐钢管、管件与管线配套。",
     "line2": "页面配图为示意性素材图，待客户提供工厂实景后替换。",
     "line3": "技术表格为高层摘要；以项目技术条件、标准与第三方检验为准。",

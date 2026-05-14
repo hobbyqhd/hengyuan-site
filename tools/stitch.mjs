@@ -24,6 +24,8 @@ const LABELS_EN = {
   rfq: 'RFQ',
   contact: 'Contact',
   privacy: 'Privacy',
+  footerCompany: 'Company',
+  footerLegal: 'Legal',
   solOil: 'Oil & gas',
   solWater: 'Water & infrastructure',
   solInd: 'Industrial & power',
@@ -130,34 +132,75 @@ function buildFooter(lang) {
   const L = lang === 'en' ? LABELS_EN : zhData.labels
   const B = lang === 'en' ? BRAND_EN : zhData.brand
   const p = lang === 'en' ? '/en' : '/zh'
+  const year = new Date().getFullYear()
   const t =
     lang === 'en'
       ? {
+          tagline: 'Anti-corrosion steel pipe, fittings, and engineered pipeline packages.',
           line1:
             'Hongkehua Pipeline Equipment Co., Ltd. - anti-corrosion steel pipe, fittings, and pipeline packages.',
           line2: 'Images are illustrative stock photography until factory photography is provided.',
           line3:
             'Technical tables are summary guidance only; project specs, standards, and third-party inspection govern.',
-          copy: 'Copyright Hongkehua Pipeline Equipment. All rights reserved.',
+          copy: `\u00a9 ${year} Hongkehua Pipeline Equipment Co., Ltd. All rights reserved.`,
         }
-      : zhData.footer
+      : { ...zhData.footer }
+
+  const fl = (href, label) => `<li><a href="${p}${href}">${label}</a></li>`
 
   return `
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-grid">
-        <div>
-          <strong>${B.name}</strong>
-          <p class="fine">${t.line1}</p>
+      <div class="footer-main">
+        <div class="footer-brand-col">
+          <a class="footer-brand" href="${p}/index.html">
+            <strong>${B.name}</strong>
+            <span>${B.sub}</span>
+          </a>
+          <p class="footer-tagline">${t.tagline}</p>
+          <p class="footer-line1">${t.line1}</p>
         </div>
-        <div>
-          <p><a href="${p}/contact.html">${L.contact}</a> &middot; <a href="${p}/rfq.html">${L.rfq}</a></p>
-          <p><a href="${p}/privacy.html">${L.privacy}</a></p>
-        </div>
+        <nav class="footer-nav-grid" aria-label="Footer">
+          <div class="footer-col">
+            <p class="footer-col-title">${L.solutions}</p>
+            <ul class="footer-links">
+              ${fl('/solutions/oil-gas.html', L.solOil)}
+              ${fl('/solutions/water-infrastructure.html', L.solWater)}
+              ${fl('/solutions/industrial-power.html', L.solInd)}
+            </ul>
+            <p class="footer-col-title footer-col-title--sub">${L.coatings}</p>
+            <ul class="footer-links">
+              ${fl('/coatings/3lpe-3lpp.html', L.coat3)}
+              ${fl('/coatings/fbe.html', L.coatFbe)}
+              ${fl('/coatings/coal-tar-enamel.html', L.coatCte)}
+            </ul>
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">${L.footerCompany}</p>
+            <ul class="footer-links">
+              ${fl('/index.html', L.home)}
+              ${fl('/products.html', L.products)}
+              ${fl('/manufacturing.html', L.manufacturing)}
+              ${fl('/compliance.html', L.compliance)}
+              ${fl('/projects.html', L.projects)}
+              ${fl('/resources/coating-comparison.html', L.resComp)}
+              ${fl('/rfq.html', L.rfq)}
+              ${fl('/contact.html', L.contact)}
+            </ul>
+          </div>
+          <div class="footer-col">
+            <p class="footer-col-title">${L.footerLegal}</p>
+            <ul class="footer-links">
+              ${fl('/privacy.html', L.privacy)}
+            </ul>
+          </div>
+        </nav>
       </div>
-      <p class="fine">${t.line2}</p>
-      <p class="fine">${t.line3}</p>
-      <p class="fine">${t.copy}</p>
+      <div class="footer-disclaimer">
+        <p class="fine">${t.line2}</p>
+        <p class="fine">${t.line3}</p>
+        <p class="fine footer-copy">${t.copy}</p>
+      </div>
     </div>
   </footer>`
 }
