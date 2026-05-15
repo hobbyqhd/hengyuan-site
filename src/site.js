@@ -5,15 +5,58 @@ function initNav() {
   const panel = document.querySelector('[data-nav-panel]')
   if (!toggle || !panel) return
 
+  const mqMobileNav = window.matchMedia('(max-width: 900px)')
+
+  const closeSubmenus = () => {
+    panel.querySelectorAll('.nav-group.is-open').forEach((g) => {
+      g.classList.remove('is-open')
+      const b = g.querySelector(':scope > button')
+      if (b) b.setAttribute('aria-expanded', 'false')
+    })
+  }
+
+  mqMobileNav.addEventListener('change', (e) => {
+    if (!e.matches) closeSubmenus()
+  })
+
+  panel.querySelectorAll('.nav-group').forEach((group) => {
+    const btn = group.querySelector(':scope > button')
+    if (!btn) return
+    btn.addEventListener('click', (e) => {
+      e.preventDefault()
+      e.stopPropagation()
+      const willOpen = !group.classList.contains('is-open')
+      panel.querySelectorAll('.nav-group.is-open').forEach((g) => {
+        if (g !== group) {
+          g.classList.remove('is-open')
+          const b = g.querySelector(':scope > button')
+          if (b) b.setAttribute('aria-expanded', 'false')
+        }
+      })
+      group.classList.toggle('is-open', willOpen)
+      btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false')
+    })
+  })
+
+  if (!mqMobileNav.matches) {
+    document.addEventListener('click', (e) => {
+      if (!(e.target instanceof Element)) return
+      if (e.target.closest('.nav-group')) return
+      closeSubmenus()
+    })
+  }
+
   toggle.addEventListener('click', () => {
     const open = panel.classList.toggle('is-open')
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false')
+    if (!open) closeSubmenus()
   })
 
   panel.querySelectorAll('a').forEach((a) => {
     a.addEventListener('click', () => {
       panel.classList.remove('is-open')
       toggle.setAttribute('aria-expanded', 'false')
+      closeSubmenus()
     })
   })
 }
