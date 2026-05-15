@@ -1,6 +1,6 @@
-# Static assets: lets `wrangler deploy` upload ./dist without parsing vite.config.js
-# Prefer Pages: npm run deploy  (wrangler pages deploy dist)
-name = "hongkehua-site"
+# Workers static assets: `npm run deploy` runs `wrangler deploy` and uploads ./dist.
+# Default hostname: https://hengyuan-site.workers.dev (worker `name` must match your account).
+name = "hengyuan-site"
 compatibility_date = "2025-05-01"
 
 [assets]

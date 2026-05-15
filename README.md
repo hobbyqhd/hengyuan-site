@@ -39,9 +39,23 @@ Output is written to `dist/`. The `prebuild` hook regenerates `/en` and `/zh` HT
 npm run preview
 ```
 
-## Deploy to Cloudflare Pages
+## Deploy to Cloudflare Workers (workers.dev)
 
-1. Push this repository (or only the `hongkehua-site/` folder in a monorepo) to GitHub/GitLab.
+After `npm run build`, deploy static assets from `dist/`:
+
+```bash
+npm run deploy
+# or: npm run build && wrangler deploy
+```
+
+With worker name `hengyuan-site`, the default URL is **https://hengyuan-site.workers.dev** (requires `wrangler login` and a Workers account).
+
+Set **`SITE_BASE_URL`** to that URL (or your custom domain) before build when you want correct `canonical` / `hreflang` links.
+
+## Deploy to Cloudflare Pages (optional)
+
+
+1. Push the **hengyuan-site** repository (GitHub: `hobbyqhd/hengyuan-site`) to GitHub/GitLab. In a monorepo, use only the `hongkehua-site/` folder on disk.
 2. In [Cloudflare Dashboard](https://dash.cloudflare.com/) ?? **Workers & Pages** ?? **Create** ?? **Pages** ?? **Connect to Git**.
 3. Select the repository and set:
    - **Root directory** (if deploying from monorepo): `hongkehua-site`

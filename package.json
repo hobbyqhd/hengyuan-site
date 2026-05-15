@@ -1,5 +1,5 @@
 {
-  "name": "hongkehua-site",
+  "name": "hengyuan-site",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "prebuild": "node tools/prepare-products-data.mjs && node tools/stitch.mjs",
     "build": "vite build --config vite.site.config.mjs",
     "preview": "vite preview --config vite.site.config.mjs",
-    "deploy": "npm run build && wrangler pages deploy dist"
+    "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
     "vite": "^6.3.5",
