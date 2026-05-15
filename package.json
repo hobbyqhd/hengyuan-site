@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "prepare:products": "node tools/prepare-products-data.mjs",
     "sync:hy-images": "node tools/sync-hy-images.mjs",
-    "predev": "node tools/stitch.mjs",
+    "predev": "node tools/prepare-products-data.mjs && node tools/stitch.mjs",
     "dev": "vite --config vite.site.config.mjs",
-    "prebuild": "node tools/stitch.mjs",
+    "prebuild": "node tools/prepare-products-data.mjs && node tools/stitch.mjs",
     "build": "vite build --config vite.site.config.mjs",
     "preview": "vite preview --config vite.site.config.mjs",
     "deploy": "npm run build && wrangler pages deploy dist"

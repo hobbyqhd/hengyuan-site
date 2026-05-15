@@ -50,6 +50,13 @@ function initProductFamilyFilter() {
     const selected = [...boxes].filter((b) => b.checked).map((b) => b.value)
     const showAll = selected.length === 0
 
+    root.dispatchEvent(
+      new CustomEvent('product-family-filter', {
+        bubbles: false,
+        detail: { selected, showAll },
+      }),
+    )
+
     sections.forEach((sec) => {
       const fam = sec.getAttribute('data-family') || ''
       const match = showAll || selected.includes(fam)
@@ -254,4 +261,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initCertLightbox()
   initPipeCalculator()
   initPrintQuote()
+
+  if (document.querySelector('[data-catalog-root]')) {
+    import('./products-catalog.mjs').then((m) => m.initProductCatalog())
+  }
 })

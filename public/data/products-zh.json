@@ -1,0 +1,4545 @@
+{
+  "metadata": {
+    "totalProducts": 194,
+    "totalCategories": 20,
+    "lastUpdated": "2026-05-08T01:43:18.951064Z",
+    "language": "cn",
+    "languageCode": "zh-CN"
+  },
+  "categories": [
+    {
+      "id": "3pe-anti-corrosion-steel-pipes",
+      "name": "3PE防腐钢管",
+      "count": 13,
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1020×12米)内环氧外3PE防腐钢管.jpg",
+      "url": "hp-products/3pe-anti-corrosion-steel-pipes.html"
+    },
+    {
+      "id": "cdu-quick-connect-plastic-coated-steel-pipes",
+      "name": "CDU快速接头涂塑钢管",
+      "count": 1,
+      "image": "/images/hy/hp-products/CDU快速接头涂塑钢管/(108×4米)CDU快速接头焊接消防涂塑钢管.jpg",
+      "url": "hp-products/cdu-quick-connect-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "threaded-connection-plastic-coated-steel-pipes",
+      "name": "丝扣连接涂塑钢管",
+      "count": 2,
+      "image": "/images/hy/hp-products/丝扣连接涂塑钢管/(60×6米)丝扣连接给水涂塑钢管.jpg",
+      "url": "hp-products/threaded-connection-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "internal-external-epoxy-coated-steel-pipe",
+      "name": "内外环氧树脂涂塑钢管",
+      "count": 3,
+      "image": "/images/hy/hp-products/内外环氧树脂涂塑钢管/(DN600×12米)防腐螺旋钢管.jpg",
+      "url": "hp-products/internal-external-epoxy-coated-steel-pipe.html"
+    },
+    {
+      "id": "clamp-connection-plastic-coated-steel-pipes",
+      "name": "卡箍连接涂塑钢管",
+      "count": 3,
+      "image": "/images/hy/hp-products/卡箍连接涂塑钢管/(114×6米)卡箍连接给水涂塑钢管.jpg",
+      "url": "hp-products/clamp-connection-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "bimetal-welded-plastic-coated-steel-pipes",
+      "name": "双金属焊接涂塑钢管",
+      "count": 3,
+      "image": "/images/hy/hp-products/双金属焊接涂塑钢管/(325×12米)双金属焊接给水涂塑钢管.jpg",
+      "url": "hp-products/bimetal-welded-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "external-galvanized-internal-plastic-coated-steel-pipes",
+      "name": "外镀锌内涂塑钢管",
+      "count": 3,
+      "image": "/images/hy/hp-products/外镀锌内涂塑钢管/(21×6米)外镀锌内涂塑钢管.jpg",
+      "url": "hp-products/external-galvanized-internal-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "name": "大口径内EP外PE防腐钢管",
+      "count": 9,
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(1020×6米)内EP外PE防腐钢管.jpg",
+      "url": "hp-products/large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes.html"
+    },
+    {
+      "id": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "name": "大口径内环氧涂塑钢管",
+      "count": 5,
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(426×12米)内环氧涂塑钢管.jpg",
+      "url": "hp-products/large-diameter-internal-epoxy-coated-steel-pipes.html"
+    },
+    {
+      "id": "large-diameter-composite-plastic-coated-steel-pipes",
+      "name": "大口径涂塑复合钢管",
+      "count": 11,
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN350×12米)双金属焊接给水涂塑钢管.jpg",
+      "url": "hp-products/large-diameter-composite-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "colored-double-resistance-plastic-coated-steel-pipes",
+      "name": "彩色双抗涂塑钢管",
+      "count": 3,
+      "image": "/images/hy/hp-products/彩色双抗涂塑钢管/(108×6米)双抗环氧粉末矿用涂塑复合钢管.jpg",
+      "url": "hp-products/colored-double-resistance-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "socket-tpep-anti-corrosion-steel-pipes",
+      "name": "承插口TPEP防腐钢管",
+      "count": 1,
+      "image": "/images/hy/hp-products/承插口TPEP防腐钢管/(820×12米)承插口TPEP防腐钢管.jpg",
+      "url": "hp-products/socket-tpep-anti-corrosion-steel-pipes.html"
+    },
+    {
+      "id": "socket-plastic-coated-steel-pipes",
+      "name": "承插口涂塑钢管",
+      "count": 2,
+      "image": "/images/hy/hp-products/承插口涂塑钢管/(820×12米)承插口内环氧粉末涂塑钢管.jpg",
+      "url": "hp-products/socket-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "loose-flange-connection-plastic-coated-steel-pipes",
+      "name": "松套法兰连接涂塑钢管",
+      "count": 1,
+      "image": "/images/hy/hp-products/松套法兰连接涂塑钢管/(140×6米)松套法兰矿用涂塑钢管.jpg",
+      "url": "hp-products/loose-flange-connection-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "grooved-connection-plastic-coated-steel-pipes",
+      "name": "沟槽连涂塑钢管",
+      "count": 26,
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(159×6米)沟槽连接消防涂塑钢管.jpg",
+      "url": "hp-products/grooved-connection-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "flange-connection-mining-plastic-coated-steel-pipes",
+      "name": "法兰连接矿用涂塑钢管",
+      "count": 28,
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(108×6米)法兰连接矿用涂塑钢管.jpg",
+      "url": "hp-products/flange-connection-mining-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "fire-protection-plastic-coated-steel-pipes",
+      "name": "消防涂塑钢管",
+      "count": 14,
+      "image": "/images/hy/hp-products/消防涂塑钢管/(114×6米)沟槽连接消防涂塑钢管.jpg",
+      "url": "hp-products/fire-protection-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "gas-plastic-coated-steel-pipes",
+      "name": "燃气涂塑钢管",
+      "count": 6,
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(57×6米)外留口燃气涂塑钢管.jpg",
+      "url": "hp-products/gas-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "water-supply-plastic-coated-steel-pipes",
+      "name": "给水涂塑钢管",
+      "count": 32,
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN100×6米)给水涂塑钢管.jpg",
+      "url": "hp-products/water-supply-plastic-coated-steel-pipes.html"
+    },
+    {
+      "id": "elbows-and-pipe-supports",
+      "name": "弯头与管道支吊架",
+      "count": 28,
+      "image": "/images/hy/wantou/90度大口径钢制弯头.jpg",
+      "url": "hp-products/elbows-and-pipe-supports.html"
+    }
+  ],
+  "products": [
+    {
+      "id": "product-001",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(1020×12米)内环氧外3PE防腐钢管",
+      "specification": "1020mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐",
+        "环氧树脂涂层"
+      ],
+      "connectionType": null,
+      "description": "本产品为大口径输油输气专用管道，采用先进的内壁熔结环氧粉末(FBE)与外壁三层聚乙烯(3PE)复合防腐技术。内涂层光滑，有效降低输送阻力，防止介质腐蚀；外3PE结构具备卓越的机械强度、耐化学腐蚀和抗阴极剥离性能，确保管道在严苛的埋地环境下长期安全稳定运行。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1020×12米)内环氧外3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-001"
+    },
+    {
+      "id": "product-002",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(DN50×12米)外3PE防腐无缝钢管",
+      "specification": "DN50 × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "此款无缝钢管采用标准三层PE防腐层，专为中高压油气管网设计。无缝管体承压能力强，结合3PE优异的防腐绝缘性能，能有效应对复杂地质条件，保障输送安全，是支线及集输管网的可靠选择。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(DN50×12米)外3PE防腐无缝钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-002"
+    },
+    {
+      "id": "product-003",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(1220×12米)埋地饮用水输送3PE防腐钢管",
+      "specification": "1220mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        },
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "大口径设计，内外壁均经过严格处理，外层3PE防腐确保管道免受土壤环境侵蚀，内壁符合饮用水输送卫生标准。该产品同时适用于给水和油气输送领域，具有极高的性价比和广泛的工程适应性。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1220×12米)埋地饮用水输送3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-003"
+    },
+    {
+      "id": "product-004",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(1400×12米)3PE加强级防腐钢管",
+      "specification": "1400mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "超大口径钢管，采用加强级3PE防腐涂层，其厚度及附着力均高于普通级，专为高腐蚀性环境或对机械防护有更高要求的核心输送干线设计，能最大程度延长管网使用寿命，降低维护成本。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1400×12米)3PE加强级防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-004"
+    },
+    {
+      "id": "product-005",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(114×6米)小口径3PE防腐钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "小口径、高灵活性的3PE防腐管道，适用于城市燃气管网、油田集输支线及化工物料输送。其优良的防腐性能和便捷的安装特性，使其成为小口径管道工程中的经济高效之选。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(114×6米)小口径3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-005"
+    },
+    {
+      "id": "product-006",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(1620×12米)3PE防腐钢管",
+      "specification": "1620mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "特大口径3PE防腐钢管，为国家级重点能源动脉和长输管线项目量身打造。强大的结构稳定性和顶级的3PE防腐系统相结合，确保在各种恶劣气候和地质条件下，能源输送的安全与高效。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1620×12米)3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-006"
+    },
+    {
+      "id": "product-007",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(159×12米)3PE防腐钢管",
+      "specification": "159mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "通用型3PE防腐钢管，规格适中，广泛应用于各类油气田地面建设、集输管线及城市燃气中低压管网。成熟的生产工艺和稳定的产品质量，使其成为市场上最受欢迎的防腐管道之一。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(159×12米)3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-007"
+    },
+    {
+      "id": "product-008",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(2200×12米)加强级3PE防腐钢管",
+      "specification": "2200mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "此款为目前行业内顶级规格的超大口径防腐钢管，采用加强级3PE涂层，为跨区域、大流量的天然气、原油等能源输送提供最高安全保障。是国家战略能源通道建设不可或缺的关键产品。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(2200×12米)加强级3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-008"
+    },
+    {
+      "id": "product-009",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(1820×12米)加强级3PE防腐钢管",
+      "specification": "1820mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "大口径加强级3PE防腐钢管，专为满足长距离、高压力、大流量的油气输送需求而设计。加厚的防腐层提供了额外的机械保护和抗腐蚀能力，确保管道在穿越山地、水域等复杂地形时依然安全可靠。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(1820×12米)加强级3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-009"
+    },
+    {
+      "id": "product-010",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(DN600×12米)3PE防腐钢管",
+      "specification": "DN600 × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "DN600是油气输送干线中的常用规格，本产品采用标准化3PE防腐工艺，质量稳定，性能可靠。适用于天然气、石油产品及其他工业气体的长距离输送，是构建高效能源管网的主力产品。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(DN600×12米)3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-010"
+    },
+    {
+      "id": "product-011",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(2020×12米)内水泥砂浆外3PE防腐钢管",
+      "specification": "2020mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "本产品为内外复合防腐结构，外壁采用3PE提供卓越的外部环境防护，内壁衬有水泥砂浆。水泥砂浆内衬不仅成本经济，还能有效防止水质二次污染并抑制水垢形成，特别适用于输水、排污及水处理工程。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(2020×12米)内水泥砂浆外3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-011"
+    },
+    {
+      "id": "product-012",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(2022×12米)加强级3PE防腐钢管",
+      "specification": "2022mm × 12m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "超大口径设计，结合加强级3PE防腐层，为国家级能源战略项目提供坚实保障。其卓越的承压能力和顶级的防腐性能，确保在各种极端工况下，实现安全、连续的油气输送。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(2022×12米)加强级3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-012"
+    },
+    {
+      "id": "product-013",
+      "categoryId": "3pe-anti-corrosion-steel-pipes",
+      "categoryName": "3PE防腐钢管",
+      "name": "(89×6米)加强级3PE防腐钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐"
+      ],
+      "connectionType": null,
+      "description": "小口径加强级3PE防腐钢管，虽然口径小，但防腐等级高。适用于腐蚀性较强的化工介质输送、卤水处理或需要高度可靠性的城市燃气入户支线，提供超长使用寿命。",
+      "image": "/images/hy/hp-products/3PE防腐钢管/(89×6米)加强级3PE防腐钢管.jpg",
+      "slug": "3pe-anti-corrosion-steel-pipes-013"
+    },
+    {
+      "id": "product-014",
+      "categoryId": "cdu-quick-connect-plastic-coated-steel-pipes",
+      "categoryName": "CDU快速接头涂塑钢管",
+      "name": "(108×4米)CDU快速接头焊接消防涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "专为现代消防工程设计，此款涂塑钢管采用CDU快速接头与焊接双重连接方式，既保证了安装的便捷高效，又确保了连接处的密封性和结构强度。内外涂层能有效防火、防腐，全面符合消防系统对管道安全耐用的高标准要求。",
+      "image": "/images/hy/hp-products/CDU快速接头涂塑钢管/(108×4米)CDU快速接头焊接消防涂塑钢管.jpg",
+      "slug": "cdu-quick-connect-plastic-coated-steel-pipes-014"
+    },
+    {
+      "id": "product-015",
+      "categoryId": "threaded-connection-plastic-coated-steel-pipes",
+      "categoryName": "丝扣连接涂塑钢管",
+      "name": "(60×6米)丝扣连接给水涂塑钢管",
+      "specification": "60mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "丝扣连接",
+        "id": "threaded"
+      },
+      "description": "该产品内外壁进行卫生级环氧树脂涂塑处理，确保水质安全。管端采用标准化丝扣加工，无需特殊工具即可快速连接，极大方便了建筑室内给水系统的安装与维修，是取代传统镀锌管的理想选择。",
+      "image": "/images/hy/hp-products/丝扣连接涂塑钢管/(60×6米)丝扣连接给水涂塑钢管.jpg",
+      "slug": "threaded-connection-plastic-coated-steel-pipes-015"
+    },
+    {
+      "id": "product-016",
+      "categoryId": "threaded-connection-plastic-coated-steel-pipes",
+      "categoryName": "丝扣连接涂塑钢管",
+      "name": "(60×6米)丝扣连接给排水涂塑钢管",
+      "specification": "60mm × 6m",
+      "applications": [
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "丝扣连接",
+        "id": "threaded"
+      },
+      "description": "内外涂塑层光滑，耐化学腐蚀，可有效防止污废水中的酸碱物质侵蚀。便捷的丝扣连接方式适用于楼宇、厂房内的排水和排污管道系统，安装快捷，维护简单，且不易堵塞。",
+      "image": "/images/hy/hp-products/丝扣连接涂塑钢管/(60×6米)丝扣连接给排水涂塑钢管.jpg",
+      "slug": "threaded-connection-plastic-coated-steel-pipes-016"
+    },
+    {
+      "id": "product-017",
+      "categoryId": "internal-external-epoxy-coated-steel-pipe",
+      "categoryName": "内外环氧树脂涂塑钢管",
+      "name": "(DN600×12米)防腐螺旋钢管",
+      "specification": "DN600 × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "内外均涂层"
+      ],
+      "connectionType": null,
+      "description": "大口径螺旋焊管基管，内外壁均采用高性能熔结环氧树脂粉末涂覆。内壁光滑，输送效率高；外壁防腐性能优异，可埋地或架空敷设。适用于市政给排水、工业循环水及污水处理等多种领域。",
+      "image": "/images/hy/hp-products/内外环氧树脂涂塑钢管/(DN600×12米)防腐螺旋钢管.jpg",
+      "slug": "internal-external-epoxy-coated-steel-pipe-017"
+    },
+    {
+      "id": "product-018",
+      "categoryId": "internal-external-epoxy-coated-steel-pipe",
+      "categoryName": "内外环氧树脂涂塑钢管",
+      "name": "(630×12米)双面涂覆复合钢管",
+      "specification": "630mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "内外均涂层"
+      ],
+      "connectionType": null,
+      "description": "大口径设计，内外壁均匀涂覆环氧树脂，形成致密的保护层，兼具钢管的强度和塑料管的耐腐蚀性。适用于对防腐和洁净度有较高要求的工业流体输送及市政工程。",
+      "image": "/images/hy/hp-products/内外环氧树脂涂塑钢管/(630×12米)双面涂覆复合钢管.jpg",
+      "slug": "internal-external-epoxy-coated-steel-pipe-018"
+    },
+    {
+      "id": "product-019",
+      "categoryId": "internal-external-epoxy-coated-steel-pipe",
+      "categoryName": "内外环氧树脂涂塑钢管",
+      "name": "(630×12米)内外环氧树脂涂塑钢管",
+      "specification": "630mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "内外均涂层"
+      ],
+      "connectionType": null,
+      "description": "此款产品以钢管为基体，通过热熔喷涂工艺将环氧树脂均匀涂覆于内外表面，有效隔绝了输送介质和外部环境对钢管的腐蚀，是一种集高强度、耐腐蚀、低流阻于一体的新型复合管道。",
+      "image": "/images/hy/hp-products/内外环氧树脂涂塑钢管/(630×12米)内外环氧树脂涂塑钢管.jpg",
+      "slug": "internal-external-epoxy-coated-steel-pipe-019"
+    },
+    {
+      "id": "product-020",
+      "categoryId": "clamp-connection-plastic-coated-steel-pipes",
+      "categoryName": "卡箍连接涂塑钢管",
+      "name": "(114×6米)卡箍连接给水涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "管端经过特殊滚槽处理，配合卡箍（沟槽）接头进行连接，安装速度极快，且允许一定的角度偏差。内外涂塑保证了输水的水质和管道的耐用性，是高层建筑给水系统和工业水处理管网的优选方案。",
+      "image": "/images/hy/hp-products/卡箍连接涂塑钢管/(114×6米)卡箍连接给水涂塑钢管.jpg",
+      "slug": "clamp-connection-plastic-coated-steel-pipes-020"
+    },
+    {
+      "id": "product-021",
+      "categoryId": "clamp-connection-plastic-coated-steel-pipes",
+      "categoryName": "卡箍连接涂塑钢管",
+      "name": "(108×4米)卡箍连接给水涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "适用于快速安装的给水管网系统。卡箍连接无需焊接或套丝，施工安全环保，大大缩短工期。内外涂层符合卫生标准，耐腐蚀不结垢，保障长期供水质量。",
+      "image": "/images/hy/hp-products/卡箍连接涂塑钢管/(108×4米)卡箍连接给水涂塑钢管.jpg",
+      "slug": "clamp-connection-plastic-coated-steel-pipes-021"
+    },
+    {
+      "id": "product-023",
+      "categoryId": "clamp-connection-plastic-coated-steel-pipes",
+      "categoryName": "卡箍连接涂塑钢管",
+      "name": "(114×4.5米)卡箍连接给水涂塑钢管",
+      "specification": "114mm × 4.5m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "这款4.5米标准长度的卡箍连接涂塑管，更便于运输和在狭小空间内操作。内外卫生级涂层确保饮用水安全，快速的卡箍连接方式特别适合工期紧迫的建筑给水项目。",
+      "image": "/images/hy/hp-products/卡箍连接涂塑钢管/(114×4.5米)卡箍连接给水涂塑钢管.jpg",
+      "slug": "clamp-connection-plastic-coated-steel-pipes-023"
+    },
+    {
+      "id": "product-024",
+      "categoryId": "bimetal-welded-plastic-coated-steel-pipes",
+      "categoryName": "双金属焊接涂塑钢管",
+      "name": "(325×12米)双金属焊接给水涂塑钢管",
+      "specification": "325mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "双金属"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "采用创新的双金属复合技术，内层通常为不锈钢，保证了优异的耐腐蚀性和卫生性能，外层为碳钢，提供高强度和支撑力。适用于高品质饮用水输送、食品医药等卫生要求极高的领域。",
+      "image": "/images/hy/hp-products/双金属焊接涂塑钢管/(325×12米)双金属焊接给水涂塑钢管.jpg",
+      "slug": "bimetal-welded-plastic-coated-steel-pipes-024"
+    },
+    {
+      "id": "product-025",
+      "categoryId": "bimetal-welded-plastic-coated-steel-pipes",
+      "categoryName": "双金属焊接涂塑钢管",
+      "name": "(159×6米)外黑内蓝双金属焊接涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [],
+      "features": [
+        "双金属"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "独特的内外双色设计，内壁蓝色涂层通常代表给水用途，外壁黑色涂层提供基础防护。双金属基管结合内外涂塑工艺，提供了从内到外的多重保护，性能卓越，经久耐用。",
+      "image": "/images/hy/hp-products/双金属焊接涂塑钢管/(159×6米)外黑内蓝双金属焊接涂塑钢管.jpg",
+      "slug": "bimetal-welded-plastic-coated-steel-pipes-025"
+    },
+    {
+      "id": "product-026",
+      "categoryId": "bimetal-welded-plastic-coated-steel-pipes",
+      "categoryName": "双金属焊接涂塑钢管",
+      "name": "(60×6米)双金属焊接给水涂塑钢管",
+      "specification": "60mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "双金属"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "小口径双金属复合管材，集不锈钢的耐腐蚀与碳钢的经济性于一体，内壁光滑洁净，适用于高端住宅、医院、学校的直饮水或优质供水系统，通过焊接实现永久性可靠连接。",
+      "image": "/images/hy/hp-products/双金属焊接涂塑钢管/(60×6米)双金属焊接给水涂塑钢管.jpg",
+      "slug": "bimetal-welded-plastic-coated-steel-pipes-026"
+    },
+    {
+      "id": "product-027",
+      "categoryId": "external-galvanized-internal-plastic-coated-steel-pipes",
+      "categoryName": "外镀锌内涂塑钢管",
+      "name": "(21×6米)外镀锌内涂塑钢管",
+      "specification": "21mm × 6m",
+      "applications": [],
+      "features": [
+        "热浸镀锌"
+      ],
+      "connectionType": null,
+      "description": "此款钢管采用外壁热浸镀锌与内壁涂塑复合工艺，兼具优异的防腐性能和机械强度。外层镀锌有效抵御外部环境侵蚀，内层涂塑确保输送介质的清洁卫生且不结垢、阻力小。是传统镀锌管的理想升级产品，广泛适用于各类建筑给水及工业流体输送。",
+      "image": "/images/hy/hp-products/外镀锌内涂塑钢管/(21×6米)外镀锌内涂塑钢管.jpg",
+      "slug": "external-galvanized-internal-plastic-coated-steel-pipes-027"
+    },
+    {
+      "id": "product-028",
+      "categoryId": "external-galvanized-internal-plastic-coated-steel-pipes",
+      "categoryName": "外镀锌内涂塑钢管",
+      "name": "(DN15×6米)外镀锌涂塑钢管",
+      "specification": "DN15 × 6m",
+      "applications": [],
+      "features": [
+        "热浸镀锌"
+      ],
+      "connectionType": null,
+      "description": "DN15小口径设计，外镀锌层防锈，内涂塑层防腐卫生。结合了钢管的强度和塑料管的优点，是建筑冷热水、消防、空调水管等领域的经济耐用型解决方案。",
+      "image": "/images/hy/hp-products/外镀锌内涂塑钢管/(DN15×6米)外镀锌涂塑钢管.jpg",
+      "slug": "external-galvanized-internal-plastic-coated-steel-pipes-028"
+    },
+    {
+      "id": "product-029",
+      "categoryId": "external-galvanized-internal-plastic-coated-steel-pipes",
+      "categoryName": "外镀锌内涂塑钢管",
+      "name": "(89×6米)外镀锌内涂塑防腐钢管",
+      "specification": "89mm × 6m",
+      "applications": [],
+      "features": [
+        "热浸镀锌"
+      ],
+      "connectionType": null,
+      "description": "中等口径，外镀锌内涂塑结构提供了双重保护。适用于对管道内外防腐均有要求的场合，如工业冷却水系统、市政给水支管等，相比单一涂层产品，使用寿命更长。",
+      "image": "/images/hy/hp-products/外镀锌内涂塑钢管/(89×6米)外镀锌内涂塑防腐钢管.jpg",
+      "slug": "external-galvanized-internal-plastic-coated-steel-pipes-029"
+    },
+    {
+      "id": "product-030",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(1020×6米)内EP外PE防腐钢管",
+      "specification": "1020mm × 6m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "大口径管道，采用内壁环氧(EP)与外壁聚乙烯(PE)的复合防腐结构。内壁EP涂层光滑耐腐，外壁PE涂层机械强度高、耐磕碰，是市政输水、污水排放及大型引水工程的高性价比选择。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(1020×6米)内EP外PE防腐钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-030"
+    },
+    {
+      "id": "product-031",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(610×6米)内环氧外PE涂塑钢管",
+      "specification": "610mm × 6m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "610mm大口径钢管，内壁采用卫生级环氧树脂涂层，外壁采用聚乙烯防腐层。这种内外不同材质的复合结构，使其能同时满足内部介质的纯净度要求和外部埋地环境的苛刻防腐要求。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(610×6米)内环氧外PE涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-031"
+    },
+    {
+      "id": "product-032",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(219×6米)法兰连接 内EP外PE防腐钢管",
+      "specification": "219mm × 6m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "此管道采用内环氧外聚乙烯(内EP外PE)的先进防腐工艺，并配备法兰连接，便于与阀门、泵等设备连接，也方便管道分段安装和检修。适用于工业管网、水处理等需要经常拆卸维护的系统。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(219×6米)法兰连接 内EP外PE防腐钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-032"
+    },
+    {
+      "id": "product-033",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(1020×6米)内EP外PE涂塑钢管",
+      "specification": "1020mm × 6m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "1020mm超大口径，内外复合涂层技术（内EP/外PE），为大型水利、市政工程提供可靠的管道解决方案。该产品结合了两种涂层的优点，实现了成本和性能的最佳平衡。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(1020×6米)内EP外PE涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-033"
+    },
+    {
+      "id": "product-034",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(DN1200×12米)内环氧粉末外聚乙烯防腐螺旋钢管",
+      "specification": "DN1200 × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "基于高强度螺旋钢管，内壁采用熔结环氧粉末(FBE)，外壁采用聚乙烯(PE)缠绕或包覆。专为长距离、大流量的输水工程设计，如南水北调、跨区域引水等项目，性能稳定可靠。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(DN1200×12米)内环氧粉末外聚乙烯防腐螺旋钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-034"
+    },
+    {
+      "id": "product-035",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(DN800×6米)内环氧外聚乙烯大口径涂塑钢管",
+      "specification": "DN800 × 6m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "DN800大口径，内环氧涂层保证水质，外聚乙烯涂层提供卓越的物理和化学防护。该产品是城市主供水管网、工业循环水系统及大型排污管道建设的理想材料。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(DN800×6米)内环氧外聚乙烯大口径涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-035"
+    },
+    {
+      "id": "product-036",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(325×12米)外黑内白涂塑钢管",
+      "specification": "325mm × 12m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "内外双色涂层，内壁白色环氧涂层洁净光滑，便于观察，外壁黑色聚乙烯涂层耐候性强。这种内外兼修的设计，使其广泛应用于对管道内外环境要求均较高的给水及工业领域。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(325×12米)外黑内白涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-036"
+    },
+    {
+      "id": "product-037",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(529×12米)内EP外PE涂塑钢管",
+      "specification": "529mm × 12m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "中大口径规格，采用成熟的内EP外PE复合防腐技术，兼顾了内部防腐和外部防护的双重需求，同时具有较高的经济性，是市政和工业领域中应用最广泛的复合防腐管道之一。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(529×12米)内EP外PE涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-037"
+    },
+    {
+      "id": "product-038",
+      "categoryId": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "categoryName": "大口径内EP外PE防腐钢管",
+      "name": "(820×12米)内环氧外聚乙烯涂塑钢管",
+      "specification": "820mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "820mm大口径，内环氧涂层耐化学性优良，外聚乙烯涂层抗冲击、耐磨损。产品综合性能优越，可有效延长管网系统的使用寿命，广泛应用于城市供水、中水回用、污水处理等工程。",
+      "image": "/images/hy/hp-products/大口径内EP外PE防腐钢管/(820×12米)内环氧外聚乙烯涂塑钢管.jpg",
+      "slug": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes-038"
+    },
+    {
+      "id": "product-039",
+      "categoryId": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "categoryName": "大口径内环氧涂塑钢管",
+      "name": "(426×12米)内环氧涂塑钢管",
+      "specification": "426mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "此产品专注于管道内壁的防腐保护，采用食品级环氧树脂粉末进行热熔涂敷。特别适用于对水质要求高且外部腐蚀不严重的输送环境，如架空或管廊内的给水管线，成本效益显著。",
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(426×12米)内环氧涂塑钢管.jpg",
+      "slug": "large-diameter-internal-epoxy-coated-steel-pipes-039"
+    },
+    {
+      "id": "product-040",
+      "categoryId": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "categoryName": "大口径内环氧涂塑钢管",
+      "name": "(2220×6米)内涂塑外3PE防腐钢管",
+      "specification": "2220mm × 6m",
+      "applications": [
+        {
+          "name": "油气输送",
+          "id": "oil-gas-transport"
+        }
+      ],
+      "features": [
+        "三层PE防腐",
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "行业顶级防腐配置，内壁采用环氧涂塑满足特殊介质要求或降低流阻，外壁采用最高等级的3PE防腐。此种“内外兼修”的终极防护方案，专为海洋平台、穿越工程等最严苛环境下的油气输送设计。",
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(2220×6米)内涂塑外3PE防腐钢管.jpg",
+      "slug": "large-diameter-internal-epoxy-coated-steel-pipes-040"
+    },
+    {
+      "id": "product-041",
+      "categoryId": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "categoryName": "大口径内环氧涂塑钢管",
+      "name": "(820×12米)承插口内环氧粉末涂塑钢管",
+      "specification": "820mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": {
+        "name": "承插连接",
+        "id": "socket"
+      },
+      "description": "大口径内环氧涂塑管，配合高效的承插式连接，极大提升了现场安装效率。内壁的环氧涂层提供了优异的防腐和水力学性能，是大型输水、排污项目快速施工的理想选择。",
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(820×12米)承插口内环氧粉末涂塑钢管.jpg",
+      "slug": "large-diameter-internal-epoxy-coated-steel-pipes-041"
+    },
+    {
+      "id": "product-042",
+      "categoryId": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "categoryName": "大口径内环氧涂塑钢管",
+      "name": "(630×12米)内环氧粉末涂塑钢管",
+      "specification": "630mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "专注于内防腐的大口径管材，内壁均匀涂覆的环氧粉末层具有极强的附着力和耐腐蚀性。适用于工业工艺水、循环冷却水等系统，能有效防止管道内部腐蚀结垢，保持系统高效运行。",
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(630×12米)内环氧粉末涂塑钢管.jpg",
+      "slug": "large-diameter-internal-epoxy-coated-steel-pipes-042"
+    },
+    {
+      "id": "product-043",
+      "categoryId": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "categoryName": "大口径内环氧涂塑钢管",
+      "name": "(1420×12米)内环氧粉末涂塑钢管",
+      "specification": "1420mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "超大口径钢管，内壁采用熔结环氧粉末防腐。主要应用于大型引水渠、水电站压力钢管及泵站进出水管线等，光滑的内壁可显著降低水头损失，提升输送效率。",
+      "image": "/images/hy/hp-products/大口径内环氧涂塑钢管/(1420×12米)内环氧粉末涂塑钢管.jpg",
+      "slug": "large-diameter-internal-epoxy-coated-steel-pipes-043"
+    },
+    {
+      "id": "product-044",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN350×12米)双金属焊接给水涂塑钢管",
+      "specification": "DN350 × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "双金属",
+        "大口径"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "大口径双金属复合管，内衬不锈钢等耐腐蚀合金，外覆碳钢，既保证了输水的水质安全和管道的超长寿命，又具备了足够的结构强度。适用于城市高品质供水主干管及食品级工业流程管道。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN350×12米)双金属焊接给水涂塑钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-044"
+    },
+    {
+      "id": "product-045",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(426×12米)内外环氧树脂涂塑螺旋钢管",
+      "specification": "426mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "基于螺旋钢管，内外壁均涂覆环氧树脂。这种全面的防腐保护使其能适应复杂的内外腐蚀环境，如化工园区、污水处理厂等地的工艺和排放管线，性价比高。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(426×12米)内外环氧树脂涂塑螺旋钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-045"
+    },
+    {
+      "id": "product-046",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(219×12米)给水涂塑复合钢管",
+      "specification": "219mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "通用型大口径给水涂塑管，内外壁采用卫生级涂层，以经济的方式解决了管道的腐蚀和结垢问题，保障了供水系统的安全和稳定，是市政及建筑给水工程的常规优选产品。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(219×12米)给水涂塑复合钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-046"
+    },
+    {
+      "id": "product-047",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN2400×12米)大口径内外涂塑螺旋钢管",
+      "specification": "DN2400 × 12m",
+      "applications": [],
+      "features": [
+        "内外均涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "超大口径内外涂塑复合管，专为巨型引水、排洪、市政工程设计。内外涂层提供了全面的腐蚀防护，保证了管道的耐久性和水流的顺畅性，是大型基础设施建设的关键管材。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN2400×12米)大口径内外涂塑螺旋钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-047"
+    },
+    {
+      "id": "product-048",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN1200×12米)给水涂塑复合钢管",
+      "specification": "DN1200 × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "DN1200大口径给水专用复合管道，内壁卫生级涂塑，保证出厂水质。适用于城市主供水管网、水库取水等关键环节，为百万级人口城市提供安全可靠的生命线保障。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN1200×12米)给水涂塑复合钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-048"
+    },
+    {
+      "id": "product-049",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN800×12米)内外涂塑螺旋钢管",
+      "specification": "DN800 × 12m",
+      "applications": [],
+      "features": [
+        "内外均涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "大口径内外涂塑管，以高性价比的螺旋管为基材，内外壁的涂层提供了可靠的防腐性能。适用于工业循环水、市政排污、农业灌溉等领域，应用范围广泛。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN800×12米)内外涂塑螺旋钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-049"
+    },
+    {
+      "id": "product-050",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN200×12米)外环氧树脂涂塑钢管",
+      "specification": "DN200 × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层",
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "此产品重点在于外壁的环氧树脂涂层防护，适用于架空敷设或外部腐蚀环境较恶劣的工况。能够有效抵御大气腐蚀和紫外线老化，保护管道结构完整。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN200×12米)外环氧树脂涂塑钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-050"
+    },
+    {
+      "id": "product-051",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(219×12米)双金属焊接给水涂塑钢管",
+      "specification": "219mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "双金属",
+        "大口径"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "该产品结合了双金属复合与涂塑技术，提供了顶级的防腐和卫生性能。内衬不锈钢保证水质，内外涂层进一步增强防腐能力，是高端建筑、医院、数据中心等重要场所给水系统的理想选择。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(219×12米)双金属焊接给水涂塑钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-051"
+    },
+    {
+      "id": "product-052",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(325×12米)双金属焊接给水涂塑钢管",
+      "specification": "325mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "双金属",
+        "大口径"
+      ],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "中大口径双金属复合管，通过焊接方式实现永久性连接，适用于压力较高的给水主干线。内层不锈钢材质从根本上解决了水的二次污染问题，是提升供水品质的关键管材。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(325×12米)双金属焊接给水涂塑钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-052"
+    },
+    {
+      "id": "product-053",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN800×6米)大口径涂塑复合螺旋钢管",
+      "specification": "DN800 × 6m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "基于螺旋钢管的大口径涂塑复合管材，内外涂层有效防止腐蚀，螺旋焊缝增强了管体环向刚度。适用于大流量的市政给排水和工业水输送，性价比突出。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN800×6米)大口径涂塑复合螺旋钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-053"
+    },
+    {
+      "id": "product-054",
+      "categoryId": "large-diameter-composite-plastic-coated-steel-pipes",
+      "categoryName": "大口径涂塑复合钢管",
+      "name": "(DN400×12米)防腐螺旋钢管",
+      "specification": "DN400 × 12m",
+      "applications": [],
+      "features": [
+        "大口径"
+      ],
+      "connectionType": null,
+      "description": "中大口径防腐螺旋管，根据客户需求可提供内外涂塑、3PE等多种防腐方案。螺旋管成本优势明显，承压能力强，是大中型输水、输气、打桩等工程的经济适用选择。",
+      "image": "/images/hy/hp-products/大口径涂塑复合钢管/(DN400×12米)防腐螺旋钢管.jpg",
+      "slug": "large-diameter-composite-plastic-coated-steel-pipes-054"
+    },
+    {
+      "id": "product-055",
+      "categoryId": "colored-double-resistance-plastic-coated-steel-pipes",
+      "categoryName": "彩色双抗涂塑钢管",
+      "name": "(108×6米)双抗环氧粉末矿用涂塑复合钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [
+        "双层抗腐蚀",
+        "环氧树脂涂层"
+      ],
+      "connectionType": null,
+      "description": "专为矿井环境设计，采用“双抗”（抗静电、抗阻燃）环氧树脂涂层，能有效防止井下瓦斯、粉尘爆炸事故。内外涂层同时具备优异的耐磨和耐腐蚀性，确保矿用给排水、压风、抽放瓦斯等系统的安全。",
+      "image": "/images/hy/hp-products/彩色双抗涂塑钢管/(108×6米)双抗环氧粉末矿用涂塑复合钢管.jpg",
+      "slug": "colored-double-resistance-plastic-coated-steel-pipes-055"
+    },
+    {
+      "id": "product-056",
+      "categoryId": "colored-double-resistance-plastic-coated-steel-pipes",
+      "categoryName": "彩色双抗涂塑钢管",
+      "name": "(108×6米)卡箍连接给排水涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [
+        "双层抗腐蚀"
+      ],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "具备“双抗”性能的涂塑钢管，采用便捷的卡箍连接方式。适用于煤矿井下等特殊环境的给排水系统，既满足了矿用安全规程，又实现了快速安装和维护。",
+      "image": "/images/hy/hp-products/彩色双抗涂塑钢管/(108×6米)卡箍连接给排水涂塑钢管.jpg",
+      "slug": "colored-double-resistance-plastic-coated-steel-pipes-056"
+    },
+    {
+      "id": "product-057",
+      "categoryId": "colored-double-resistance-plastic-coated-steel-pipes",
+      "categoryName": "彩色双抗涂塑钢管",
+      "name": "(108×6米)沟槽连接彩色双抗矿用涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [
+        "双层抗腐蚀"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此款矿用涂塑管内外壁均涂覆特制的“双抗”材料，并通过沟槽连接。彩色的外观便于井下管道系统的识别和管理，是构建现代化、高安全标准矿井管网的理想产品。",
+      "image": "/images/hy/hp-products/彩色双抗涂塑钢管/(108×6米)沟槽连接彩色双抗矿用涂塑钢管.jpg",
+      "slug": "colored-double-resistance-plastic-coated-steel-pipes-057"
+    },
+    {
+      "id": "product-059",
+      "categoryId": "socket-tpep-anti-corrosion-steel-pipes",
+      "categoryName": "承插口TPEP防腐钢管",
+      "name": "(820×12米)承插口TPEP防腐钢管",
+      "specification": "820mm × 12m",
+      "applications": [],
+      "features": [
+        "TPEP防腐"
+      ],
+      "connectionType": {
+        "name": "承插连接",
+        "id": "socket"
+      },
+      "description": "采用顶级TPEP(外三层聚乙烯内熔结环氧)防腐技术，防腐层性能全面优于传统3PE，特别适用于长距离、大口径输水、输气工程。便捷的承插连接方式能大幅缩短施工周期，降低安装成本，同时保证接口的严密性与可靠性，是大型管网项目的理想选择。",
+      "image": "/images/hy/hp-products/承插口TPEP防腐钢管/(820×12米)承插口TPEP防腐钢管.jpg",
+      "slug": "socket-tpep-anti-corrosion-steel-pipes-059"
+    },
+    {
+      "id": "product-060",
+      "categoryId": "socket-plastic-coated-steel-pipes",
+      "categoryName": "承插口涂塑钢管",
+      "name": "(820×12米)承插口内环氧粉末涂塑钢管",
+      "specification": "820mm × 12m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": {
+        "name": "承插连接",
+        "id": "socket"
+      },
+      "description": "大口径内环氧涂塑管，采用承插式连接，接口处有可靠的密封设计，安装方便快捷。适用于市政给排水、农田灌溉等压力不高的重力流或低压输水系统，施工效率极高。",
+      "image": "/images/hy/hp-products/承插口涂塑钢管/(820×12米)承插口内环氧粉末涂塑钢管.jpg",
+      "slug": "socket-plastic-coated-steel-pipes-060"
+    },
+    {
+      "id": "product-061",
+      "categoryId": "socket-plastic-coated-steel-pipes",
+      "categoryName": "承插口涂塑钢管",
+      "name": "(820×12米)承插口给水涂塑钢管",
+      "specification": "820mm × 12m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "承插连接",
+        "id": "socket"
+      },
+      "description": "专为大口径给水工程设计的承插式涂塑钢管，内壁卫生级涂层保证水质安全。承插连接无需复杂设备，施工简便，能有效缩短工期，非常适合大型市政给水管网的快速铺设。",
+      "image": "/images/hy/hp-products/承插口涂塑钢管/(820×12米)承插口给水涂塑钢管.jpg",
+      "slug": "socket-plastic-coated-steel-pipes-061"
+    },
+    {
+      "id": "product-062",
+      "categoryId": "loose-flange-connection-plastic-coated-steel-pipes",
+      "categoryName": "松套法兰连接涂塑钢管",
+      "name": "(140×6米)松套法兰矿用涂塑钢管",
+      "specification": "140mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "矿用涂塑钢管配备松套法兰，安装时法兰可以自由转动对孔，极大地方便了井下复杂环境中的管道对接安装，节省了对中时间。适用于矿用管网中需要经常拆装或与设备连接的部位。",
+      "image": "/images/hy/hp-products/松套法兰连接涂塑钢管/(140×6米)松套法兰矿用涂塑钢管.jpg",
+      "slug": "loose-flange-connection-plastic-coated-steel-pipes-062"
+    },
+    {
+      "id": "product-063",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(159×6米)沟槽连接消防涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "消防专用涂塑钢管，采用沟槽连接，安装快捷无明火，符合消防安全施工要求。红色环氧涂层附着力强，耐火耐腐蚀，确保消防系统在关键时刻反应迅速，性能可靠。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(159×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-063"
+    },
+    {
+      "id": "product-064",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(114×6米)沟槽连接消防涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "标准化设计的消防系统专用管道，内外红色涂层，沟槽式连接。产品严格按照消防规范生产，具有优异的耐压、耐腐蚀性能，是各类建筑消防喷淋、消火栓系统的首选管材。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(114×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-064"
+    },
+    {
+      "id": "product-065",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(89×6米)沟槽连接给水涂塑钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "内外壁涂塑处理，卫生无毒，专为给水系统设计。沟槽连接方式施工便捷，接口可靠，适用于建筑给水、直饮水及纯净水输送系统，是一种高效、环保的管道解决方案。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(89×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-065"
+    },
+    {
+      "id": "product-066",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(165×6米)沟槽连接给水涂塑钢管",
+      "specification": "165mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "中等口径的给水专用涂塑管，采用沟槽连接，可快速构建稳定可靠的给水管网。内外涂层有效防止腐蚀和结垢，保证长期稳定的输水能力和水质。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(165×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-066"
+    },
+    {
+      "id": "product-067",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(114×6米)沟槽连接内环氧粉末涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此产品在钢管内壁熔结环氧粉末涂层，耐腐蚀性能优异，外壁保留钢管原样。配合沟槽连接，适用于对内壁防腐有要求，但外部环境腐蚀性不强的室内或管廊工程，性价比高。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(114×6米)沟槽连接内环氧粉末涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-067"
+    },
+    {
+      "id": "product-068",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(114×6米)沟槽连接内环氧涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "专注于内壁防腐的沟槽连接管道。内壁的环氧涂层能有效抵抗多种化学介质的侵蚀，适用于工业工艺管道、化工水处理等领域，沟槽连接便于快速安装和系统变更。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(114×6米)沟槽连接内环氧涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-068"
+    },
+    {
+      "id": "product-069",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(108×4米)沟槽连接涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "通用型沟槽连接涂塑钢管，内外壁均有防腐涂层，性能均衡。可广泛应用于消防、给排水、空调循环水等多种管道系统，快速的安装方式是其最大优势。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(108×4米)沟槽连接涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-069"
+    },
+    {
+      "id": "product-070",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(426×6米)内外环氧给水涂塑钢管",
+      "specification": "426mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径给水管材，内外壁均采用食品级环氧树脂涂塑，并通过沟槽连接。适用于大型商建、体育场馆、会展中心等的主给水管线，既保证了供水安全，又实现了高效施工。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(426×6米)内外环氧给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-070"
+    },
+    {
+      "id": "product-071",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(325×6米)沟槽连接给水涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径给水专用涂塑管，采用沟槽连接技术，相比传统焊接或法兰连接，施工速度更快，综合成本更低。是现代化大型给水项目，尤其是工期紧张项目的理想选择。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(325×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-071"
+    },
+    {
+      "id": "product-074",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN60×6米)给水涂塑钢管",
+      "specification": "DN60 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "DN60口径给水管，采用沟槽连接，安装简便。内外壁的卫生级涂塑层确保水质清洁，不生锈、不结垢，是现代健康建筑给水系统的经济之选。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN60×6米)给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-074"
+    },
+    {
+      "id": "product-076",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(76×6米)沟槽连接给水涂塑钢管",
+      "specification": "76mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "小口径给水用涂塑钢管，采用便捷的沟槽连接。是解决建筑内支管及小型给水系统安装问题的优选方案，兼具耐用性与经济性。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(76×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-076"
+    },
+    {
+      "id": "product-078",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(114×6米)灰色沟槽连接给水涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "独特的灰色外观，便于管道系统的区分管理（例如区分生活用水和中水回用）。采用沟槽连接，内外涂塑，兼具美观、实用和高效安装的特点。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(114×6米)灰色沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-078"
+    },
+    {
+      "id": "product-079",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(114×6米)红色沟槽连接消防涂塑复合钢",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "鲜明的红色外观是消防管道的专用标识。此款复合钢管内外涂塑，耐火耐腐蚀，沟槽连接方式安全快捷，完全满足各类消防工程的严格要求。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(114×6米)红色沟槽连接消防涂塑复合钢.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-079"
+    },
+    {
+      "id": "product-080",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(108×4米)沟槽连接矿用涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "矿用涂塑钢管，具备矿用产品安全认证，涂层具有抗静电、阻燃特性。沟槽连接方式适用于井下环境，安装安全，拆卸方便。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(108×4米)沟槽连接矿用涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-080"
+    },
+    {
+      "id": "product-081",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN100×3米)沟槽连接消防涂塑钢管",
+      "specification": "DN100 × 3m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "3米短尺寸设计，更适用于空间有限或需要频繁转向的消防管路布置。红色涂层，沟槽连接，完全符合消防系统安全、可靠、安装便捷的要求。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN100×3米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-081"
+    },
+    {
+      "id": "product-082",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(159×6米)沟槽连接给水涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "通用规格的沟槽式给水涂塑管，质量可靠，应用广泛。内外涂层保证水质，快速连接方式提升施工效率，是各类给水工程的高性价比之选。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(159×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-082"
+    },
+    {
+      "id": "product-083",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(108×6米)彩色双抗沟槽连接涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [],
+      "features": [
+        "双层抗腐蚀"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "集彩色标识、双抗性能（抗静电、阻燃）和沟槽连接于一体的高端产品。特别适用于有特殊安全要求和复杂管路系统的矿井或化工厂，便于管理，安全性高。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(108×6米)彩色双抗沟槽连接涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-083"
+    },
+    {
+      "id": "product-085",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN200×6米)消防沟槽连接涂塑钢管",
+      "specification": "DN200 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径消防专用管，适用于消防泵房、室外消防主干管等关键部位。红色涂层耐候性好，沟槽连接能承受较高压力，确保整个消防系统的完整性和有效性。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN200×6米)消防沟槽连接涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-085"
+    },
+    {
+      "id": "product-086",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN150×6米)红色沟槽连接消防涂塑钢管",
+      "specification": "DN150 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "消防系统核心管材，DN150口径，内外红色环氧涂层。采用沟槽连接，可快速完成管网铺设，满足现代消防工程对效率和安全的双重需求。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN150×6米)红色沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-086"
+    },
+    {
+      "id": "product-087",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN100×6米)红色沟槽连接消防涂塑钢管",
+      "specification": "DN100 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "DN100是消防系统中应用最广泛的规格之一。此款红色沟槽管，生产标准严格，质量批次稳定，是各类建筑消防管网的标准配置。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN100×6米)红色沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-087"
+    },
+    {
+      "id": "product-089",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(219×6米)沟槽连接消防涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径沟槽式消防管，适用于大型综合体、高层建筑的消防主立管或横干管。安装便捷，承压能力强，能确保大流量输水，是现代大型消防工程的可靠保障。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(219×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-089"
+    },
+    {
+      "id": "product-090",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN150×6米)沟槽连接给排水涂塑钢管",
+      "specification": "DN150 × 6m",
+      "applications": [
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "适用于给水和排水系统的通用型沟槽连接管。内外涂层光滑耐腐，既能保证给水水质，又能顺畅排放污水，沟槽连接大大简化了安装和维护工作。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN150×6米)沟槽连接给排水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-090"
+    },
+    {
+      "id": "product-091",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(159×6米)沟槽连接矿用涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "满足安标认证的矿用涂塑管，涂层具备阻燃、抗静电性能。沟槽连接方式安全环保，无明火作业，特别适合在瓦斯、粉尘等高危环境下的矿井管路安装。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(159×6米)沟槽连接矿用涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-091"
+    },
+    {
+      "id": "product-092",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(219×6米)沟槽连接给水涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径给水管材，内外卫生级涂塑，采用高效的沟槽连接方式。适用于城市二次供水、工业园区给水主干线等项目，能有效缩短建设周期。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(219×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-092"
+    },
+    {
+      "id": "product-093",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(DN100×6米)给水涂塑钢管",
+      "specification": "DN100 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "DN100通用给水涂塑管，采用沟槽连接。是商业及住宅项目中应用最普遍的管材之一，内外涂层防止锈蚀，保证水质，安装方便，经济实用。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(DN100×6米)给水涂塑钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-093"
+    },
+    {
+      "id": "product-094",
+      "categoryId": "grooved-connection-plastic-coated-steel-pipes",
+      "categoryName": "沟槽连涂塑钢管",
+      "name": "(89×6米)外镀锌内涂塑防腐钢管",
+      "specification": "89mm × 6m",
+      "applications": [],
+      "features": [
+        "热浸镀锌"
+      ],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "集三种防护于一身的高性能管材：外壁热镀锌防锈，内壁涂塑防腐卫生，连接方式采用高效的沟槽连接。适用于对管道内外保护及安装效率要求都极高的场合，如高端酒店、医院的给水系统。",
+      "image": "/images/hy/hp-products/沟槽连涂塑钢管/(89×6米)外镀锌内涂塑防腐钢管.jpg",
+      "slug": "grooved-connection-plastic-coated-steel-pipes-094"
+    },
+    {
+      "id": "product-095",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(108×6米)法兰连接矿用涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "符合矿用安全标准的涂塑钢管，两端焊接法兰。法兰连接刚性好，密封可靠，适用于矿井下压力较高或震动较大的管路系统，如主排水、压风管线等。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(108×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-095"
+    },
+    {
+      "id": "product-096",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(159×4.5米)法兰连接矿用涂塑钢管",
+      "specification": "159mm × 4.5m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "此款矿用涂塑管配备法兰，4.5米的长度更易于在狭窄的矿井巷道中运输和安装。适用于需要分段安装或连接阀门、设备的矿用管网。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(159×4.5米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-096"
+    },
+    {
+      "id": "product-097",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(114×6米)法兰连接矿用涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "标准规格的法兰连接矿用涂塑管，内外壁涂层满足抗静电、阻燃要求，法兰连接确保了连接的强度和密封性，是构建安全可靠矿井管网的基础元件。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(114×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-097"
+    },
+    {
+      "id": "product-098",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(159×3米)法兰连接矿用涂塑钢管",
+      "specification": "159mm × 3m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "3米短尺寸设计，特别适用于矿井下空间受限、管路复杂的区域。法兰连接便于精确对位和坚固固定，是解决井下特殊位置管道安装难题的理想产品。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(159×3米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-098"
+    },
+    {
+      "id": "product-099",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(108×4米)法兰连接样矿用涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "此为标准样品或特定项目定制的法兰连接矿用管，全面展示了产品的涂层质量、法兰焊接工艺和整体性能，是客户评估和项目招标的理想参照物。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(108×4米)法兰连接样矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-099"
+    },
+    {
+      "id": "product-100",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(325×6米)法兰连接矿用涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "大口径矿用涂塑钢管，采用法兰连接。适用于矿井主排水、主通风及瓦斯抽放主干线等大流量、高要求的管路系统，连接可靠，承压能力强。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(325×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-100"
+    },
+    {
+      "id": "product-102",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(406×6米)法兰连接矿用涂塑钢管",
+      "specification": "406mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "大口径法兰连接矿用管，为大型矿井的生命线工程（如通风、排水、抽放）提供坚实保障。内外双抗涂层结合坚固的法兰连接，确保系统在恶劣环境下长期安全运行。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(406×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-102"
+    },
+    {
+      "id": "product-103",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(165×6米)灰色法兰连接矿用涂塑复合钢管",
+      "specification": "165mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "灰色外观可用于区分特定用途的矿用管路，如压风管路或注浆管路。法兰连接保证了在高压工况下的安全性和密封性，内外涂层有效抵抗井下潮湿和腐蚀环境。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(165×6米)灰色法兰连接矿用涂塑复合钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-103"
+    },
+    {
+      "id": "product-104",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(108×4米)双盘法兰连接内外涂塑复合钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [
+        "内外均涂层"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "管体两端直接焊有固定法兰（双盘法兰），连接刚性强，安装方便。内外涂塑提供了全面的防腐保护，适用于矿井下重要设备接口或需要高强度连接的管段。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(108×4米)双盘法兰连接内外涂塑复合钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-104"
+    },
+    {
+      "id": "product-105",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN300×6米)外留口矿用涂塑复合钢管",
+      "specification": "DN300 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "管端预留一小段不涂塑的钢管（外留口），便于现场焊接法兰，提供了更大的施工灵活性。焊接完成后，可对焊口进行补口处理，保证整个管线的防腐完整性。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN300×6米)外留口矿用涂塑复合钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-105"
+    },
+    {
+      "id": "product-106",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(219×6米)沟槽连接涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接;沟槽连接",
+        "id": "法兰连接;沟槽连接"
+      },
+      "description": "此为特殊定制产品，一端为法兰连接，另一端为沟槽连接。用于连接不同类型的管道或设备，提供了极大的系统兼容性和安装便利性，是矿井管网改造和升级的理想选择。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(219×6米)沟槽连接涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-106"
+    },
+    {
+      "id": "product-107",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN100×6米)黄色法兰连接矿用涂塑钢管",
+      "specification": "DN100 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "黄色的管体通常在矿井下用作瓦斯抽放或压风管路的标识。法兰连接方式确保了在这些高危系统中的连接严密性和安全性，符合最严格的矿山安全规程。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN100×6米)黄色法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-107"
+    },
+    {
+      "id": "product-108",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(325×4米)法兰连接双抗涂塑钢管",
+      "specification": "325mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [
+        "双层抗腐蚀"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "大口径、短尺寸、双抗性能、法兰连接——集多种优点于一身的高规格矿用管材。专为大型矿井的关键位置设计，如泵房接口、通风机接口等，安全等级高。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(325×4米)法兰连接双抗涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-108"
+    },
+    {
+      "id": "product-109",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(140×6米)松套法兰矿用涂塑钢管",
+      "specification": "140mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "配备松套法兰，安装时无需严格对准螺栓孔，大大提高了井下安装效率，特别适用于空间狭小或多个管道并行的复杂工况。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(140×6米)松套法兰矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-109"
+    },
+    {
+      "id": "product-110",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(273×6米)法兰连接矿用涂塑钢管",
+      "specification": "273mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "中大口径法兰连接矿用管，适用于井下主干管网。内外双抗涂层保证了其在恶劣环境下的耐用性和安全性，法兰连接则确保了管路的长期稳定运行。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(273×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-110"
+    },
+    {
+      "id": "product-111",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN50×6米)法兰连接矿用涂塑钢管",
+      "specification": "DN50 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "小口径法兰连接矿用管，常用于连接传感器、仪表或小型设备。虽然口径小，但法兰连接提供了高强度的可靠固定，内外涂层满足矿用安全标准。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN50×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-111"
+    },
+    {
+      "id": "product-112",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(159×6米)法兰连接矿用涂塑复合钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "此款矿用涂塑复合钢管采用法兰连接，是井下给排水、压风、喷浆等系统中应用最广泛的规格之一，产品成熟可靠，市场认可度高。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(159×6米)法兰连接矿用涂塑复合钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-112"
+    },
+    {
+      "id": "product-113",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(159×4米)法兰连接矿用涂塑复合钢管",
+      "specification": "159mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "4米定制长度，便于垂直运输和在有限高度的巷道内施工。法兰连接方式结合内外双抗涂层，为矿井安全生产提供可靠的管道支持。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(159×4米)法兰连接矿用涂塑复合钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-113"
+    },
+    {
+      "id": "product-115",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN500×6米)法兰连接双抗矿用涂塑钢管",
+      "specification": "DN500 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [
+        "双层抗腐蚀"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "大口径双抗矿用管，采用法兰连接，专为大型、特大型矿井的主通风、主排水和高浓度瓦斯抽放系统设计。集高安全等级、大输送能力和可靠连接于一体。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN500×6米)法兰连接双抗矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-115"
+    },
+    {
+      "id": "product-116",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(325×6米)法兰连接高压对焊矿用涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "法兰采用高压对焊形式与管体连接，能承受比普通平焊法兰更高的压力。适用于矿井深部的高压注水、排水和压风系统，连接强度极高。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(325×6米)法兰连接高压对焊矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-116"
+    },
+    {
+      "id": "product-117",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(325×6米)矿用带劲对焊法兰连接矿用涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "带颈对焊法兰提供了更好的应力分布，连接强度和抗疲劳性更优。此款高端产品适用于矿井下有严重震动或压力波动的关键管路，安全系数极高。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(325×6米)矿用带劲对焊法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-117"
+    },
+    {
+      "id": "product-119",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(426×5米)灰色法兰连接矿用涂塑钢管",
+      "specification": "426mm × 5m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "大口径、5米非标长度，灰色外观，法兰连接。可根据客户特定工况定制，用于特殊介质输送或特定区域的管路系统，灵活性高。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(426×5米)灰色法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-119"
+    },
+    {
+      "id": "product-121",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(159×4米)蓝色法兰连接涂塑钢管",
+      "specification": "159mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "蓝色管体通常用于标识井下的给水或压风管路，便于维护管理。法兰连接方式可靠，内外涂层满足矿用安全要求，是实现矿井管路系统标准化管理的有效工具。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(159×4米)蓝色法兰连接涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-121"
+    },
+    {
+      "id": "product-122",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN150×6米)法兰连接矿用涂塑钢管",
+      "specification": "DN150 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "DN150是矿用管网中的常用主干管规格。本产品采用可靠的法兰连接和符合安规的内外涂层，为井下各种流体输送提供安全保障。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN150×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-122"
+    },
+    {
+      "id": "product-124",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(DN250×6米)矿用法兰连接涂塑钢管",
+      "specification": "DN250 × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "专为矿用系统设计的DN250法兰连接管，内外涂层满足井下防火、防静电要求，连接强度高，密封性能好，是保障矿井安全高效生产的关键一环。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(DN250×6米)矿用法兰连接涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-124"
+    },
+    {
+      "id": "product-125",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(325×6米)涂塑螺旋矿用涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "以经济型螺旋管为基管，内外进行矿用双抗涂塑处理，并采用法兰连接。该产品在保证安全性能的前提下，具有较高的成本效益，适合预算有限但对安全有要求的矿用项目。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(325×6米)涂塑螺旋矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-125"
+    },
+    {
+      "id": "product-126",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(219×6米)法兰连接矿用涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "这是矿用系统中非常通用的一个规格，性能稳定，安全可靠。法兰连接适用于井下各种需要高强度连接的场合，是矿山建设的常备管材。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(219×6米)法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-126"
+    },
+    {
+      "id": "product-127",
+      "categoryId": "flange-connection-mining-plastic-coated-steel-pipes",
+      "categoryName": "法兰连接矿用涂塑钢管",
+      "name": "(108×4米)两端焊接法兰连接矿用涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "矿用系统",
+          "id": "矿用系统"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "法兰连接;焊接连接",
+        "id": "法兰连接;焊接连接"
+      },
+      "description": "该产品两端已预先焊接好法兰，用户现场只需进行法兰对接即可，无需现场焊接管体，既保证了连接强度，又简化了现场安装步骤，提高了安全性。",
+      "image": "/images/hy/hp-products/法兰连接矿用涂塑钢管/(108×4米)两端焊接法兰连接矿用涂塑钢管.jpg",
+      "slug": "flange-connection-mining-plastic-coated-steel-pipes-127"
+    },
+    {
+      "id": "product-128",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(114×6米)沟槽连接消防涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "消防系统专用管材，内外壁涂覆红色环氧树脂，具有优良的耐腐蚀性和耐温性。采用沟槽连接方式，安装快捷，无明火作业，是现代建筑消防工程的标准配置。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(114×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-128"
+    },
+    {
+      "id": "product-129",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(DN150×6米)红色沟槽连接消防涂塑钢管",
+      "specification": "DN150 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "DN150大口径消防主管，鲜明的红色外观，采用快速沟槽连接。适用于商场、厂房、高层建筑的消防主干管网，确保火情发生时能迅速、足量地供水。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(DN150×6米)红色沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-129"
+    },
+    {
+      "id": "product-130",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(42×6米)红色消防涂塑钢管",
+      "specification": "42mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径消防涂塑管，适用于消防喷淋系统的末端支管。内外红色涂层，防腐性能好，管壁光滑，水流阻力小，可采用丝扣或沟槽连接。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(42×6米)红色消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-130"
+    },
+    {
+      "id": "product-131",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(60×6米)红色消防涂塑钢管",
+      "specification": "60mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "通用型消防涂塑管，内外壁涂覆特制防火、防腐环氧树脂。适用于消火栓系统、喷淋系统的水平干管和立管，是保障建筑消防安全的基础管材。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(60×6米)红色消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-131"
+    },
+    {
+      "id": "product-132",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(DN100×6米)红色消防涂塑钢管",
+      "specification": "DN100 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "DN100是消防系统中应用最广泛的主干管规格。此款红色涂塑管严格按照国家消防标准生产，耐压高，耐腐蚀，使用寿命长，确保消防系统长期可靠。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(DN100×6米)红色消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-132"
+    },
+    {
+      "id": "product-134",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(DN100×3米)沟槽连接消防涂塑钢管",
+      "specification": "DN100 × 3m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "3米短尺寸设计，红色涂层，沟槽连接。专为管路复杂、空间狭小的消防工程区域定制，如设备层、吊顶内等，便于灵活布置和安装。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(DN100×3米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-134"
+    },
+    {
+      "id": "product-135",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(DN165×6米)沟槽连接消防涂塑钢管",
+      "specification": "DN165 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "较大口径的消防专用管，沟槽连接，内外红色涂塑。适用于大型建筑或工业设施的消防主干线，承压能力强，流量大，能满足严苛的消防用水需求。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(DN165×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-135"
+    },
+    {
+      "id": "product-136",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(DN32×6米)小口径管道用消防涂塑钢管",
+      "specification": "DN32 × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "DN32小口径消防管，主要用于连接喷淋头。内外壁涂塑，既能防止生锈堵塞喷头，又能保证水流顺畅，是自动喷水灭火系统不可或缺的组成部分。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(DN32×6米)小口径管道用消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-136"
+    },
+    {
+      "id": "product-137",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(159×6米)沟槽连接涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此款159mm沟槽连接涂塑管，内外涂层均符合消防要求。作为消防主干管，其安装便捷、连接可靠的特性，能有效缩短工期，降低综合成本。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(159×6米)沟槽连接涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-137"
+    },
+    {
+      "id": "product-138",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(76×6米)小口径涂塑钢管",
+      "specification": "76mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径消防涂塑管，可用于消火栓支管或小型喷淋区域的干管。内外涂塑层能有效抵抗腐蚀，保证管道内部清洁，避免杂质影响消防设备正常工作。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(76×6米)小口径涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-138"
+    },
+    {
+      "id": "product-139",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(406×6米)消防涂塑钢管",
+      "specification": "406mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径消防涂塑钢管，适用于消防泵房出水管、室外埋地消防主干管及消防水池的进出水管。承压能力强，内外防腐，可采用焊接或法兰连接，保障消防生命线工程的安全。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(406×6米)消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-139"
+    },
+    {
+      "id": "product-140",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(219×6米)沟槽连接消防涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径沟槽式消防管，内外涂塑，红色标识。广泛应用于大型公共建筑、物流仓库、工业厂房的消防系统，能快速构建起强大的灭火管网。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(219×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-140"
+    },
+    {
+      "id": "product-141",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(108×4米)CDU快速接头焊接消防涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "专为消防系统设计，结合了CDU快速接头的安装便捷性和焊接的永久牢固性，是一种高可靠性的连接方案。内外涂塑层符合消防标准，耐火防腐。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(108×4米)CDU快速接头焊接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-141"
+    },
+    {
+      "id": "product-142",
+      "categoryId": "fire-protection-plastic-coated-steel-pipes",
+      "categoryName": "消防涂塑钢管",
+      "name": "(159×6米)沟槽连接消防涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "消防系统",
+          "id": "fire-protection"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "作为消防系统的主力管材，此款159mm沟槽管内外涂覆红色环氧树脂，性能稳定，安装高效。是各类新建及改造消防工程的理想选择。",
+      "image": "/images/hy/hp-products/消防涂塑钢管/(159×6米)沟槽连接消防涂塑钢管.jpg",
+      "slug": "fire-protection-plastic-coated-steel-pipes-142"
+    },
+    {
+      "id": "product-143",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(57×6米)外留口燃气涂塑钢管",
+      "specification": "57mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "专为燃气输送设计，管端预留未涂塑部分（外留口），便于现场与阀门、管件进行可靠的焊接连接。内外涂层能有效抵抗燃气中的硫化物及土壤腐蚀，安全性高。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(57×6米)外留口燃气涂塑钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-143"
+    },
+    {
+      "id": "product-144",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(25×6米)燃气涂塑钢管",
+      "specification": "25mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径燃气专用涂塑管，适用于住宅、商业楼宇的燃气入户支线。内外黄色涂塑层是燃气管道的专用标识，涂层致密，气密性好，能有效防止燃气泄漏。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(25×6米)燃气涂塑钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-144"
+    },
+    {
+      "id": "product-145",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(57×6米)小口径外留口燃气涂塑复合钢管",
+      "specification": "57mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径燃气复合管，管端留口设计，方便现场实施高质量的焊接作业。内外黄色专用涂层提供了优异的防腐保护和警示作用，是城市燃气管网安全运行的可靠保障。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(57×6米)小口径外留口燃气涂塑复合钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-145"
+    },
+    {
+      "id": "product-146",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(57×6米)镀锌燃气涂塑钢管",
+      "specification": "57mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [
+        "热浸镀锌"
+      ],
+      "connectionType": null,
+      "description": "采用外镀锌、内涂塑的双重保护工艺。外镀锌层增强了管道的抗外界环境腐蚀能力，内涂塑层则抵抗燃气腐蚀并保持输气顺畅，适用于对防腐要求更高的燃气工程。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(57×6米)镀锌燃气涂塑钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-146"
+    },
+    {
+      "id": "product-147",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(60×6)燃气涂塑钢管",
+      "specification": "60mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "标准化燃气涂塑管，内外涂覆黄色防腐层，具有良好的耐化学性和绝缘性。适用于中低压城市燃气管网，是连接千家万户的安全纽带。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(60×6)燃气涂塑钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-147"
+    },
+    {
+      "id": "product-150",
+      "categoryId": "gas-plastic-coated-steel-pipes",
+      "categoryName": "燃气涂塑钢管",
+      "name": "(89×6米)燃气钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "燃气系统",
+          "id": "燃气系统"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "中等口径燃气输送用钢管，内外壁涂覆黄色专用防腐涂层，警示性强。适用于小区或工业园区的燃气主干管，承压能力强，安全可靠。",
+      "image": "/images/hy/hp-products/燃气涂塑钢管/(89×6米)燃气钢管.jpg",
+      "slug": "gas-plastic-coated-steel-pipes-150"
+    },
+    {
+      "id": "product-151",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(DN100×6米)给水涂塑钢管",
+      "specification": "DN100 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "DN100是给水系统中的通用主管规格，内外壁采用卫生级环氧树脂或聚乙烯涂塑，确保输水安全无污染。管壁光滑，不结垢，长期保持高效输水能力。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN100×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-151"
+    },
+    {
+      "id": "product-152",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(273×4米)沟槽连接给水涂塑钢管",
+      "specification": "273mm × 4m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径给水管，4米短尺寸便于运输和安装，采用沟槽连接方式，施工效率高。内外涂层符合饮用水标准，是大型建筑和市政给水工程的理想选择。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(273×4米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-152"
+    },
+    {
+      "id": "product-153",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(165×6米)沟槽连接给水涂塑钢管",
+      "specification": "165mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "中等口径的沟槽式给水管，内外涂塑，安装便捷。适用于建筑群的给水干管或大型建筑内的垂直立管，是现代快速施工技术的代表性产品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(165×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-153"
+    },
+    {
+      "id": "product-154",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(426×6米)内外环氧给水涂塑钢管",
+      "specification": "426mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": null,
+      "description": "大口径给水管，内外壁均涂覆食品级环氧树脂，提供了卓越的防腐性能和卫生保障。适用于市政供水主干线、水厂等对水质和管道耐久性有严格要求的项目。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(426×6米)内外环氧给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-154"
+    },
+    {
+      "id": "product-155",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(325×6米)沟槽连接给水涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此款大口径给水管采用沟槽连接，内外涂塑。相比传统连接方式，能节省大量安装时间，且连接可靠。是现代化、大规模给水管网建设的高效解决方案。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(325×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-155"
+    },
+    {
+      "id": "product-156",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(89×6米)给水涂塑钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "89mm是建筑给水管网中的常用规格，本产品内外涂塑，防腐卫生，可采用丝扣、沟槽或法兰连接，通用性强，是各类给水工程的基础管材。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(89×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-156"
+    },
+    {
+      "id": "product-157",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(325×6米)给水涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径给水专用涂塑钢管，内壁光滑，水力条件好，输水能耗低。内外涂层有效杜绝了黄水、红水现象，全面提升供水品质，适用于城市供水主管网。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(325×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-157"
+    },
+    {
+      "id": "product-158",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(89×6米)沟槽连接给水涂塑钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此款产品将89mm通用管径与高效的沟槽连接相结合，为建筑给水系统提供了既经济又便捷的解决方案，市场需求量大，应用广泛。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(89×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-158"
+    },
+    {
+      "id": "product-159",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(325×6米)外留口给水涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径给水管，采用管端留口设计，方便用户根据现场需求进行焊接或法兰安装，灵活性高。焊接安装后对焊口进行防腐补口，即可形成完整的防腐管线。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(325×6米)外留口给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-159"
+    },
+    {
+      "id": "product-160",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(159×6米)双面涂塑复合钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "中等口径双面涂塑管，内外壁涂层均匀致密，全面隔绝水与钢管的接触，从根本上解决了管道的腐蚀问题。适用于各类民用和工业给水系统。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(159×6米)双面涂塑复合钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-160"
+    },
+    {
+      "id": "product-161",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(114×6米)沟槽连接给水涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "114mm口径的沟槽连接给水管，是高层建筑给水立管和干管的理想选择。安装快速，接口牢固，内外涂塑确保水质安全和系统长寿命运行。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(114×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-161"
+    },
+    {
+      "id": "product-162",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(108×4米)沟槽连接涂塑钢管",
+      "specification": "108mm × 4m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "专为给水系统设计的沟槽连接管，内外涂层卫生无毒。4米的标准长度便于在室内及狭小空间内施工，是应用非常灵活的一款产品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(108×4米)沟槽连接涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-162"
+    },
+    {
+      "id": "product-163",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(76×6米)沟槽连接给水涂塑钢管",
+      "specification": "76mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "小口径沟槽连接给水管，内外涂塑。适用于建筑内给水支管或小型循环水系统，安装简便，性能可靠，是传统管材的优秀替代品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(76×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-163"
+    },
+    {
+      "id": "product-164",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(159×6米)外留口给水涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "中等口径，管端留口，为现场连接提供了便利。用户可自行焊接法兰或与其他管道焊接，特别适合需要非标连接或现场改造的给水项目。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(159×6米)外留口给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-164"
+    },
+    {
+      "id": "product-165",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(25×6米)内外热熔环氧粉末给水涂塑钢管",
+      "specification": "25mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [
+        "环氧树脂涂层"
+      ],
+      "connectionType": null,
+      "description": "小口径给水管，内外壁采用热熔结环氧粉末工艺，涂层附着力极强，防腐性能优异。适用于高端住宅、医院等对水质和管道寿命要求极高的场合。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(25×6米)内外热熔环氧粉末给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-165"
+    },
+    {
+      "id": "product-166",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(159×6米)沟槽连接给水涂塑钢管",
+      "specification": "159mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "此款159mm沟槽连接给水管是市场上的主流产品，质量稳定，安装高效。广泛应用于各类建筑的给水主干管，是现代给水工程的首选之一。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(159×6米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-166"
+    },
+    {
+      "id": "product-167",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(108×6米)卡箍连接给排水涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        },
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "通用性极强的卡箍（沟槽）连接涂塑管，既可用于压力给水系统，也可用于无压排水系统。内外涂层光滑耐腐，是一种多用途、高效率的管道产品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(108×6米)卡箍连接给排水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-167"
+    },
+    {
+      "id": "product-168",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(108×4米)沟槽连接给水涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "经典的沟槽连接给水管，内外卫生级涂层，4米长度便于操作。适用于各种建筑给水管网的快速安装，性能可靠，经济耐用。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(108×4米)沟槽连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-168"
+    },
+    {
+      "id": "product-169",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(325×6米)沟槽连接涂塑钢管",
+      "specification": "325mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "大口径沟槽连接给水管，为大型项目提供了高效的管道安装方案。内外涂层保证了输水安全，快速的连接方式显著降低了人力和时间成本。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(325×6米)沟槽连接涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-169"
+    },
+    {
+      "id": "product-170",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(529×6米)蓝色外留口给水涂塑钢管",
+      "specification": "529mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径给水管，蓝色外观可作为给水专用标识，管端留口便于现场焊接。适用于需要特殊标识和灵活连接方式的大型市政或工业给水工程。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(529×6米)蓝色外留口给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-170"
+    },
+    {
+      "id": "product-171",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(DN200×6米)焊接给水涂塑钢管",
+      "specification": "DN200 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "焊接连接",
+        "id": "welded"
+      },
+      "description": "此款给水涂塑管专为需要焊接连接的场合设计，管端经过处理，便于现场焊接。焊接完成后，需对焊缝进行专业的防腐补口处理，以确保整个管线的防腐性能。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN200×6米)焊接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-171"
+    },
+    {
+      "id": "product-172",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(DN15×6米)给水涂塑钢管",
+      "specification": "DN15 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "最小口径的给水涂塑管，适用于家庭装修、公寓等入户水管。内外涂塑，彻底解决镀锌管的锈蚀问题，提供健康、清洁的家庭用水。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN15×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-172"
+    },
+    {
+      "id": "product-173",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(DN125×6米)给水涂塑钢管",
+      "specification": "DN125 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "中等口径给水涂塑管，是连接市政主管道与建筑内部管网的理想选择。内外防腐，确保水质，使用寿命长，维护成本低。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN125×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-173"
+    },
+    {
+      "id": "product-174",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(426×6米)外留口给水涂塑钢管",
+      "specification": "426mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径给水管，外留口设计，为大型管道工程的现场连接提供了最大的灵活性。适用于需要与现有不同类型管道或大型设备对接的项目。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(426×6米)外留口给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-174"
+    },
+    {
+      "id": "product-175",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(89×6米)外留口给排水涂塑复合钢管",
+      "specification": "89mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        },
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "此款为给排水通用型涂塑管，管端留口设计。既能满足给水的卫生要求，也能应对排水的腐蚀环境，是一种灵活多用途的管道产品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(89×6米)外留口给排水涂塑复合钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-175"
+    },
+    {
+      "id": "product-176",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(DN150×6米)沟槽连接给排水涂塑钢管",
+      "specification": "DN150 × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        },
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "一款可同时用于给水和排水系统的沟槽连接管。内外涂层具有良好的耐腐蚀性和光滑度，连接快速，应用范围广，能有效降低库存种类。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(DN150×6米)沟槽连接给排水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-176"
+    },
+    {
+      "id": "product-177",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(426×6米)外留口给水涂塑复合钢管",
+      "specification": "426mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "大口径给水复合管，管端留口以方便焊接，内外涂层保证了管道的防腐性能和卫生安全。是大型给水工程中，需要高度定制化连接方案时的首选。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(426×6米)外留口给水涂塑复合钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-177"
+    },
+    {
+      "id": "product-178",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(48×6米)给水涂塑钢管",
+      "specification": "48mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径给水涂塑管，适用于建筑室内给水支管。内外壁卫生级涂层，不生锈、不结垢，保障家庭饮用水的安全，是传统管材的升级换代产品。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(48×6米)给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-178"
+    },
+    {
+      "id": "product-180",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(76×6米)小口径外留口给水涂塑钢管",
+      "specification": "76mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "小口径给水管，管端留口设计，专为需要现场焊接的精密管路或改造项目而生。在保证内外防腐的同时，提供了最大的连接自由度。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(76×6米)小口径外留口给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-180"
+    },
+    {
+      "id": "product-181",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(114×6米)卡箍连接给水涂塑钢管",
+      "specification": "114mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "卡箍连接",
+        "id": "clamp"
+      },
+      "description": "采用卡箍（沟槽）连接的给水涂塑管，安装极为方便快捷。内外涂层符合饮用水标准，是高层建筑、大型场馆给水系统快速施工的优选方案。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(114×6米)卡箍连接给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-181"
+    },
+    {
+      "id": "product-182",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(108×6米)沟槽连接给排水涂塑钢管",
+      "specification": "108mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        },
+        {
+          "name": "排水系统",
+          "id": "drainage"
+        }
+      ],
+      "features": [],
+      "connectionType": {
+        "name": "沟槽连接",
+        "id": "grooved"
+      },
+      "description": "这是一款多功能沟槽连接管，既可用于承压的给水系统，也可用于无压的排水系统。光滑耐腐的内外涂层使其应用广泛，性价比高。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(108×6米)沟槽连接给排水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-182"
+    },
+    {
+      "id": "product-183",
+      "categoryId": "water-supply-plastic-coated-steel-pipes",
+      "categoryName": "给水涂塑钢管",
+      "name": "(219×6米)外留口螺旋给水涂塑钢管",
+      "specification": "219mm × 6m",
+      "applications": [
+        {
+          "name": "给水系统",
+          "id": "water-supply"
+        }
+      ],
+      "features": [],
+      "connectionType": null,
+      "description": "以螺旋管为基材，进行内外涂塑处理，管端留口。螺旋管成本较低，承压能力好，结合涂塑防腐和留口焊接的灵活性，是大型给水工程中经济而实用的选择。",
+      "image": "/images/hy/hp-products/给水涂塑钢管/(219×6米)外留口螺旋给水涂塑钢管.jpg",
+      "slug": "water-supply-plastic-coated-steel-pipes-183"
+    },
+    {
+      "id": "product-wantou-001",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "90度大口径钢制弯头",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "钢制结构",
+        "大口径成型",
+        "工程定制"
+      ],
+      "connectionType": null,
+      "description": "本产品为90度大口径钢制弯头，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/90度大口径钢制弯头.jpg",
+      "slug": "elbows-and-pipe-supports-001"
+    },
+    {
+      "id": "product-wantou-002",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "大口径法兰90度钢制弯头",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "钢制结构",
+        "大口径成型",
+        "工程定制"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "本产品为大口径法兰90度钢制弯头，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/大口径法兰90度钢制弯头.jpg",
+      "slug": "elbows-and-pipe-supports-002"
+    },
+    {
+      "id": "product-wantou-003",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "大口径90度钢制弯头批量成品",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "钢制结构",
+        "大口径成型",
+        "工程定制"
+      ],
+      "connectionType": null,
+      "description": "本产品为大口径90度钢制弯头批量成品，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/大口径90度钢制弯头批量成品.jpg",
+      "slug": "elbows-and-pipe-supports-003"
+    },
+    {
+      "id": "product-wantou-004",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "碳钢无缝弯头批量成品",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "钢制结构",
+        "大口径成型",
+        "工程定制"
+      ],
+      "connectionType": null,
+      "description": "本产品为碳钢无缝弯头批量成品，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/碳钢无缝弯头批量成品.jpg",
+      "slug": "elbows-and-pipe-supports-004"
+    },
+    {
+      "id": "product-wantou-005",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "180°定制高压法兰管件",
+      "specification": "180°定制",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "法兰连接",
+        "高压适用",
+        "定制加工"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "本产品为180°定制高压法兰管件，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/180°定制高压法兰管件.jpg",
+      "slug": "elbows-and-pipe-supports-005"
+    },
+    {
+      "id": "product-wantou-006",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "定制高压法兰直管段",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "法兰连接",
+        "高压适用",
+        "定制加工"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "本产品为定制高压法兰直管段，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/定制高压法兰直管段.jpg",
+      "slug": "elbows-and-pipe-supports-006"
+    },
+    {
+      "id": "product-wantou-007",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "各种法兰现货供应",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "规格齐全",
+        "现货供应",
+        "工程配套"
+      ],
+      "connectionType": {
+        "name": "法兰连接",
+        "id": "flange"
+      },
+      "description": "本产品为各种法兰现货供应，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/各种法兰现货供应.jpg",
+      "slug": "elbows-and-pipe-supports-007"
+    },
+    {
+      "id": "product-wantou-008",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "防腐钢管管件半成品",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "市政工程",
+          "id": "municipal"
+        }
+      ],
+      "features": [
+        "防腐处理",
+        "钢制管件",
+        "后续加工"
+      ],
+      "connectionType": null,
+      "description": "本产品为防腐钢管管件半成品，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/防腐钢管管件半成品.jpg",
+      "slug": "elbows-and-pipe-supports-008"
+    },
+    {
+      "id": "product-wantou-009",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "保温固定管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为保温固定管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/保温固定管托.jpg",
+      "slug": "elbows-and-pipe-supports-009"
+    },
+    {
+      "id": "product-wantou-010",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "保温滑动管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为保温滑动管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/保温滑动管托.jpg",
+      "slug": "elbows-and-pipe-supports-010"
+    },
+    {
+      "id": "product-wantou-011",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "保温管夹支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为保温管夹支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/保温管夹支座.jpg",
+      "slug": "elbows-and-pipe-supports-011"
+    },
+    {
+      "id": "product-wantou-012",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "双孔保温管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为双孔保温管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/双孔保温管托.jpg",
+      "slug": "elbows-and-pipe-supports-012"
+    },
+    {
+      "id": "product-wantou-013",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "隔热固定管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为隔热固定管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/隔热固定管托.jpg",
+      "slug": "elbows-and-pipe-supports-013"
+    },
+    {
+      "id": "product-wantou-014",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "重型保温管夹支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为重型保温管夹支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/重型保温管夹支座.jpg",
+      "slug": "elbows-and-pipe-supports-014"
+    },
+    {
+      "id": "product-wantou-015",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "弯头管托支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为弯头管托支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/弯头管托支座.jpg",
+      "slug": "elbows-and-pipe-supports-015"
+    },
+    {
+      "id": "product-wantou-016",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "鞍式滑动管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为鞍式滑动管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/鞍式滑动管托.jpg",
+      "slug": "elbows-and-pipe-supports-016"
+    },
+    {
+      "id": "product-wantou-017",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "方形导向管托",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "稳定支撑",
+        "管道限位",
+        "工程配套"
+      ],
+      "connectionType": null,
+      "description": "本产品为方形导向管托，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/方形导向管托.jpg",
+      "slug": "elbows-and-pipe-supports-017"
+    },
+    {
+      "id": "product-wantou-018",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "U型螺栓管夹",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": {
+        "name": "螺栓连接",
+        "id": "bolted"
+      },
+      "description": "本产品为U型螺栓管夹，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/U型螺栓管夹.jpg",
+      "slug": "elbows-and-pipe-supports-018"
+    },
+    {
+      "id": "product-wantou-019",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "轻型U型管夹",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": {
+        "name": "螺栓连接",
+        "id": "bolted"
+      },
+      "description": "本产品为轻型U型管夹，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/轻型U型管夹.jpg",
+      "slug": "elbows-and-pipe-supports-019"
+    },
+    {
+      "id": "product-wantou-020",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "重型U型管夹支架",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": {
+        "name": "螺栓连接",
+        "id": "bolted"
+      },
+      "description": "本产品为重型U型管夹支架，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/重型U型管夹支架.jpg",
+      "slug": "elbows-and-pipe-supports-020"
+    },
+    {
+      "id": "product-wantou-021",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "双螺栓管夹组件",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": {
+        "name": "螺栓连接",
+        "id": "bolted"
+      },
+      "description": "本产品为双螺栓管夹组件，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/双螺栓管夹组件.jpg",
+      "slug": "elbows-and-pipe-supports-021"
+    },
+    {
+      "id": "product-wantou-022",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "四向限位管夹组件",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为四向限位管夹组件，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/四向限位管夹组件.jpg",
+      "slug": "elbows-and-pipe-supports-022"
+    },
+    {
+      "id": "product-wantou-023",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "双管夹固定支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为双管夹固定支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/双管夹固定支座.jpg",
+      "slug": "elbows-and-pipe-supports-023"
+    },
+    {
+      "id": "product-wantou-024",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "双管夹滑动支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为双管夹滑动支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/双管夹滑动支座.jpg",
+      "slug": "elbows-and-pipe-supports-024"
+    },
+    {
+      "id": "product-wantou-025",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "双管夹限位支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为双管夹限位支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/双管夹限位支座.jpg",
+      "slug": "elbows-and-pipe-supports-025"
+    },
+    {
+      "id": "product-wantou-026",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "四角限位管夹支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为四角限位管夹支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/四角限位管夹支座.jpg",
+      "slug": "elbows-and-pipe-supports-026"
+    },
+    {
+      "id": "product-wantou-027",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "固定管夹支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为固定管夹支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/固定管夹支座.jpg",
+      "slug": "elbows-and-pipe-supports-027"
+    },
+    {
+      "id": "product-wantou-028",
+      "categoryId": "elbows-and-pipe-supports",
+      "categoryName": "弯头与管道支吊架",
+      "name": "立式管夹支座",
+      "specification": "定制规格",
+      "applications": [
+        {
+          "name": "工业管道",
+          "id": "industrial"
+        },
+        {
+          "name": "管道支撑",
+          "id": "support"
+        }
+      ],
+      "features": [
+        "螺栓紧固",
+        "安装便捷",
+        "支撑可靠"
+      ],
+      "connectionType": null,
+      "description": "本产品为立式管夹支座，属于弯头与管道支吊架系列，适用于工业管道、市政工程及配套支撑系统。产品可按项目口径、压力等级和安装环境定制，兼顾结构强度、安装效率和长期运行稳定性。",
+      "image": "/images/hy/wantou/立式管夹支座.jpg",
+      "slug": "elbows-and-pipe-supports-028"
+    }
+  ],
+  "groupedProducts": {
+    "3pe-anti-corrosion-steel-pipes": {
+      "id": "3pe-anti-corrosion-steel-pipes",
+      "name": "3PE防腐钢管",
+      "productIds": [
+        "product-001",
+        "product-002",
+        "product-003",
+        "product-004",
+        "product-005",
+        "product-006",
+        "product-007",
+        "product-008",
+        "product-009",
+        "product-010",
+        "product-011",
+        "product-012",
+        "product-013"
+      ],
+      "count": 13
+    },
+    "cdu-quick-connect-plastic-coated-steel-pipes": {
+      "id": "cdu-quick-connect-plastic-coated-steel-pipes",
+      "name": "CDU快速接头涂塑钢管",
+      "productIds": [
+        "product-014"
+      ],
+      "count": 1
+    },
+    "threaded-connection-plastic-coated-steel-pipes": {
+      "id": "threaded-connection-plastic-coated-steel-pipes",
+      "name": "丝扣连接涂塑钢管",
+      "productIds": [
+        "product-015",
+        "product-016"
+      ],
+      "count": 2
+    },
+    "internal-external-epoxy-coated-steel-pipe": {
+      "id": "internal-external-epoxy-coated-steel-pipe",
+      "name": "内外环氧树脂涂塑钢管",
+      "productIds": [
+        "product-017",
+        "product-018",
+        "product-019"
+      ],
+      "count": 3
+    },
+    "clamp-connection-plastic-coated-steel-pipes": {
+      "id": "clamp-connection-plastic-coated-steel-pipes",
+      "name": "卡箍连接涂塑钢管",
+      "productIds": [
+        "product-020",
+        "product-021",
+        "product-023"
+      ],
+      "count": 3
+    },
+    "bimetal-welded-plastic-coated-steel-pipes": {
+      "id": "bimetal-welded-plastic-coated-steel-pipes",
+      "name": "双金属焊接涂塑钢管",
+      "productIds": [
+        "product-024",
+        "product-025",
+        "product-026"
+      ],
+      "count": 3
+    },
+    "external-galvanized-internal-plastic-coated-steel-pipes": {
+      "id": "external-galvanized-internal-plastic-coated-steel-pipes",
+      "name": "外镀锌内涂塑钢管",
+      "productIds": [
+        "product-027",
+        "product-028",
+        "product-029"
+      ],
+      "count": 3
+    },
+    "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes": {
+      "id": "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes",
+      "name": "大口径内EP外PE防腐钢管",
+      "productIds": [
+        "product-030",
+        "product-031",
+        "product-032",
+        "product-033",
+        "product-034",
+        "product-035",
+        "product-036",
+        "product-037",
+        "product-038"
+      ],
+      "count": 9
+    },
+    "large-diameter-internal-epoxy-coated-steel-pipes": {
+      "id": "large-diameter-internal-epoxy-coated-steel-pipes",
+      "name": "大口径内环氧涂塑钢管",
+      "productIds": [
+        "product-039",
+        "product-040",
+        "product-041",
+        "product-042",
+        "product-043"
+      ],
+      "count": 5
+    },
+    "large-diameter-composite-plastic-coated-steel-pipes": {
+      "id": "large-diameter-composite-plastic-coated-steel-pipes",
+      "name": "大口径涂塑复合钢管",
+      "productIds": [
+        "product-044",
+        "product-045",
+        "product-046",
+        "product-047",
+        "product-048",
+        "product-049",
+        "product-050",
+        "product-051",
+        "product-052",
+        "product-053",
+        "product-054"
+      ],
+      "count": 11
+    },
+    "colored-double-resistance-plastic-coated-steel-pipes": {
+      "id": "colored-double-resistance-plastic-coated-steel-pipes",
+      "name": "彩色双抗涂塑钢管",
+      "productIds": [
+        "product-055",
+        "product-056",
+        "product-057"
+      ],
+      "count": 3
+    },
+    "socket-tpep-anti-corrosion-steel-pipes": {
+      "id": "socket-tpep-anti-corrosion-steel-pipes",
+      "name": "承插口TPEP防腐钢管",
+      "productIds": [
+        "product-059"
+      ],
+      "count": 1
+    },
+    "socket-plastic-coated-steel-pipes": {
+      "id": "socket-plastic-coated-steel-pipes",
+      "name": "承插口涂塑钢管",
+      "productIds": [
+        "product-060",
+        "product-061"
+      ],
+      "count": 2
+    },
+    "loose-flange-connection-plastic-coated-steel-pipes": {
+      "id": "loose-flange-connection-plastic-coated-steel-pipes",
+      "name": "松套法兰连接涂塑钢管",
+      "productIds": [
+        "product-062"
+      ],
+      "count": 1
+    },
+    "grooved-connection-plastic-coated-steel-pipes": {
+      "id": "grooved-connection-plastic-coated-steel-pipes",
+      "name": "沟槽连涂塑钢管",
+      "productIds": [
+        "product-063",
+        "product-064",
+        "product-065",
+        "product-066",
+        "product-067",
+        "product-068",
+        "product-069",
+        "product-070",
+        "product-071",
+        "product-074",
+        "product-076",
+        "product-078",
+        "product-079",
+        "product-080",
+        "product-081",
+        "product-082",
+        "product-083",
+        "product-085",
+        "product-086",
+        "product-087",
+        "product-089",
+        "product-090",
+        "product-091",
+        "product-092",
+        "product-093",
+        "product-094"
+      ],
+      "count": 26
+    },
+    "flange-connection-mining-plastic-coated-steel-pipes": {
+      "id": "flange-connection-mining-plastic-coated-steel-pipes",
+      "name": "法兰连接矿用涂塑钢管",
+      "productIds": [
+        "product-095",
+        "product-096",
+        "product-097",
+        "product-098",
+        "product-099",
+        "product-100",
+        "product-102",
+        "product-103",
+        "product-104",
+        "product-105",
+        "product-106",
+        "product-107",
+        "product-108",
+        "product-109",
+        "product-110",
+        "product-111",
+        "product-112",
+        "product-113",
+        "product-115",
+        "product-116",
+        "product-117",
+        "product-119",
+        "product-121",
+        "product-122",
+        "product-124",
+        "product-125",
+        "product-126",
+        "product-127"
+      ],
+      "count": 28
+    },
+    "fire-protection-plastic-coated-steel-pipes": {
+      "id": "fire-protection-plastic-coated-steel-pipes",
+      "name": "消防涂塑钢管",
+      "productIds": [
+        "product-128",
+        "product-129",
+        "product-130",
+        "product-131",
+        "product-132",
+        "product-134",
+        "product-135",
+        "product-136",
+        "product-137",
+        "product-138",
+        "product-139",
+        "product-140",
+        "product-141",
+        "product-142"
+      ],
+      "count": 14
+    },
+    "gas-plastic-coated-steel-pipes": {
+      "id": "gas-plastic-coated-steel-pipes",
+      "name": "燃气涂塑钢管",
+      "productIds": [
+        "product-143",
+        "product-144",
+        "product-145",
+        "product-146",
+        "product-147",
+        "product-150"
+      ],
+      "count": 6
+    },
+    "water-supply-plastic-coated-steel-pipes": {
+      "id": "water-supply-plastic-coated-steel-pipes",
+      "name": "给水涂塑钢管",
+      "productIds": [
+        "product-151",
+        "product-152",
+        "product-153",
+        "product-154",
+        "product-155",
+        "product-156",
+        "product-157",
+        "product-158",
+        "product-159",
+        "product-160",
+        "product-161",
+        "product-162",
+        "product-163",
+        "product-164",
+        "product-165",
+        "product-166",
+        "product-167",
+        "product-168",
+        "product-169",
+        "product-170",
+        "product-171",
+        "product-172",
+        "product-173",
+        "product-174",
+        "product-175",
+        "product-176",
+        "product-177",
+        "product-178",
+        "product-180",
+        "product-181",
+        "product-182",
+        "product-183"
+      ],
+      "count": 32
+    },
+    "elbows-and-pipe-supports": {
+      "id": "elbows-and-pipe-supports",
+      "name": "弯头与管道支吊架",
+      "productIds": [
+        "product-wantou-001",
+        "product-wantou-002",
+        "product-wantou-003",
+        "product-wantou-004",
+        "product-wantou-005",
+        "product-wantou-006",
+        "product-wantou-007",
+        "product-wantou-008",
+        "product-wantou-009",
+        "product-wantou-010",
+        "product-wantou-011",
+        "product-wantou-012",
+        "product-wantou-013",
+        "product-wantou-014",
+        "product-wantou-015",
+        "product-wantou-016",
+        "product-wantou-017",
+        "product-wantou-018",
+        "product-wantou-019",
+        "product-wantou-020",
+        "product-wantou-021",
+        "product-wantou-022",
+        "product-wantou-023",
+        "product-wantou-024",
+        "product-wantou-025",
+        "product-wantou-026",
+        "product-wantou-027",
+        "product-wantou-028"
+      ],
+      "count": 28
+    }
+  },
+  "familyByCategoryId": {
+    "3pe-anti-corrosion-steel-pipes": "anti-corrosion",
+    "cdu-quick-connect-plastic-coated-steel-pipes": "plastic-coated",
+    "threaded-connection-plastic-coated-steel-pipes": "plastic-coated",
+    "internal-external-epoxy-coated-steel-pipe": "plastic-coated",
+    "clamp-connection-plastic-coated-steel-pipes": "plastic-coated",
+    "bimetal-welded-plastic-coated-steel-pipes": "plastic-coated",
+    "external-galvanized-internal-plastic-coated-steel-pipes": "plastic-coated",
+    "large-diameter-internal-ep-external-pe-anti-corrosion-steel-pipes": "anti-corrosion",
+    "large-diameter-internal-epoxy-coated-steel-pipes": "plastic-coated",
+    "large-diameter-composite-plastic-coated-steel-pipes": "plastic-coated",
+    "colored-double-resistance-plastic-coated-steel-pipes": "plastic-coated",
+    "socket-tpep-anti-corrosion-steel-pipes": "anti-corrosion",
+    "socket-plastic-coated-steel-pipes": "plastic-coated",
+    "loose-flange-connection-plastic-coated-steel-pipes": "plastic-coated",
+    "grooved-connection-plastic-coated-steel-pipes": "plastic-coated",
+    "flange-connection-mining-plastic-coated-steel-pipes": "plastic-coated",
+    "fire-protection-plastic-coated-steel-pipes": "plastic-coated",
+    "gas-plastic-coated-steel-pipes": "plastic-coated",
+    "water-supply-plastic-coated-steel-pipes": "plastic-coated",
+    "elbows-and-pipe-supports": "fittings"
+  }
+}
