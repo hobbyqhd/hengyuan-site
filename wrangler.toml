@@ -1,6 +1,6 @@
 # Workers static assets: `npm run deploy` runs `wrangler deploy` and uploads ./dist.
 # Default hostname: https://hengyuan-site.workers.dev (worker `name` must match your account).
-name = "hengyuan-site"
+name = "hongkehua-site"
 compatibility_date = "2025-05-01"
 
 [assets]
