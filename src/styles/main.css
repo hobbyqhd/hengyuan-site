@@ -863,6 +863,39 @@ form.rfq small {
   color: var(--muted);
 }
 
+.rfq-feedback {
+  margin: 0;
+}
+
+.rfq-feedback__msg {
+  margin: 0;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.rfq-feedback__msg[hidden] {
+  display: none;
+}
+
+.rfq-feedback__msg--success {
+  background: #ecfdf3;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+}
+
+.rfq-feedback__msg--error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+form.rfq button[type='submit']:disabled {
+  opacity: 0.72;
+  cursor: wait;
+}
+
 /* Product catalog: sections + image cards (demo imagery) */
 .product-section {
   margin-top: clamp(2.25rem, 4vw, 3rem);

@@ -1,4 +1,5 @@
 import './styles/main.css'
+import { initRfqSubmit } from './rfq-submit.mjs'
 
 function initNav() {
   const toggle = document.querySelector('[data-nav-toggle]')
@@ -294,6 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCertLightbox()
   initPipeCalculator()
   initPrintQuote()
+  initRfqSubmit()
 
   if (document.querySelector('[data-catalog-root]')) {
     import('./products-catalog.mjs').then((m) => m.initProductCatalog())
