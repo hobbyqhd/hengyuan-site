@@ -106,8 +106,8 @@ const EN_MANIFEST = /** @type {PageDef[]} */ ([
   {
     lang: 'en',
     out: 'compliance.html',
-    title: 'Certifications & compliance — Hebei Hengyuan',
-    desc: 'ISO9001, CE, SGS and related quality system framing; drinking-water and special-equipment topics as types of evidence supplied through controlled channels.',
+    title: 'Standards & certifications — Hebei Hengyuan Industrial',
+    desc: 'ISO 9001:2015, ISO 14001, ISO 45001, mining safety mark, water-related product license, high-tech enterprise, AAA credit and contract-honoring credentials; GB/industry/international standards summary aligned with the corporate quality page.',
     nav: 'compliance',
   },
   {
