@@ -96,23 +96,42 @@ img {
 
 .brand {
   display: flex;
-  flex-direction: column;
-  gap: 0.1rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
   text-decoration: none;
   color: var(--text);
   border-radius: 6px;
 }
 
-.brand strong {
+.brand-logo {
+  height: 2.75rem;
+  width: auto;
+  max-width: min(42vw, 9.5rem);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+  min-width: 0;
+}
+
+.brand-text strong {
   font-size: clamp(1.02rem, 0.5vw + 0.95rem, 1.12rem);
   letter-spacing: 0.02em;
   font-weight: 700;
+  line-height: 1.2;
 }
 
-.brand span {
+.brand-sub {
   font-size: 0.72rem;
   color: var(--muted);
   letter-spacing: 0.01em;
+  line-height: 1.25;
 }
 
 .nav-toggle {
@@ -136,6 +155,11 @@ img {
 }
 
 .nav-panel {
+  --nav-fs: 0.9rem;
+  --nav-lh: 1.25;
+  --nav-pad-y: 0.4rem;
+  --nav-pad-x: 0.6rem;
+  --nav-item-min-h: 2.25rem;
   display: flex;
   align-items: center;
   gap: 0.35rem;
@@ -143,19 +167,24 @@ img {
   justify-content: flex-end;
 }
 
-.nav-panel a {
+.nav-panel > a {
   text-decoration: none;
   color: var(--text);
-  font-size: 0.9rem;
-  padding: 0.35rem 0.55rem;
+  font-size: var(--nav-fs);
+  line-height: var(--nav-lh);
+  min-height: var(--nav-item-min-h);
+  padding: var(--nav-pad-y) var(--nav-pad-x);
   border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
   transition:
     background 0.15s var(--ease-out),
     color 0.15s var(--ease-out);
 }
 
-.nav-panel a:hover,
-.nav-panel a.is-active {
+.nav-panel > a:hover,
+.nav-panel > a.is-active {
   background: var(--accent-soft);
   color: var(--accent);
 }
@@ -167,16 +196,40 @@ img {
 .nav-group > button {
   border: none;
   background: transparent;
-  font: inherit;
-  cursor: pointer;
-  padding: 0.35rem 0.55rem;
+  font-family: inherit;
+  font-size: var(--nav-fs);
+  font-weight: inherit;
+  line-height: var(--nav-lh);
+  min-height: var(--nav-item-min-h);
+  padding: var(--nav-pad-y) var(--nav-pad-x);
   border-radius: 6px;
   color: var(--text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  box-sizing: border-box;
   transition: background 0.15s var(--ease-out);
 }
 
 .nav-group > button:hover {
   background: var(--accent-soft);
+}
+
+.nav-label {
+  display: inline-block;
+}
+
+.nav-caret {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.62em;
+  line-height: 1;
+  margin-top: 0.06em;
+  opacity: 0.82;
+  flex-shrink: 0;
 }
 
 .nav-group > .dropdown {
@@ -242,6 +295,16 @@ img {
 
 .lang-switch a {
   font-weight: 600;
+  font-size: var(--nav-fs);
+  line-height: var(--nav-lh);
+  min-height: var(--nav-item-min-h);
+  padding: var(--nav-pad-y) var(--nav-pad-x);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text);
 }
 
 main {
@@ -1616,6 +1679,11 @@ dialog.cert-lightbox::backdrop {
   .header-inner {
     position: relative;
     flex-wrap: wrap;
+  }
+
+  .brand-logo {
+    height: 2.35rem;
+    max-width: min(38vw, 7.5rem);
   }
 
   .nav-group > .dropdown {

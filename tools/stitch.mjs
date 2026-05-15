@@ -166,21 +166,28 @@ function buildNav(lang, active) {
   const B = lang === 'en' ? BRAND_EN : zhData.brand
   const p = lang === 'en' ? '/en' : '/zh'
   const n = (href, key, label) => `<a href="${p}${href}"${navClass(active, key)}>${label}</a>`
-  const caret = ' \u25be'
+  const caret = '<span class="nav-caret" aria-hidden="true">\u25be</span>'
+  const dropBtn = (label) =>
+    `<button type="button"><span class="nav-label">${label}</span>${caret}</button>`
+  const brandAlt =
+    lang === 'en' ? 'Hebei Hengyuan Industrial Co., Ltd.' : '河北亨源实业有限公司'
 
   return `
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="${p}/index.html">
-        <strong>${B.name}</strong>
-        <span>${B.sub}</span>
+        <img class="brand-logo" src="/images/hy/logo.jpg" width="372" height="122" alt="${brandAlt}" fetchpriority="high" loading="eager" />
+        <span class="brand-text">
+          <strong>${B.name}</strong>
+          <span class="brand-sub">${B.sub}</span>
+        </span>
       </a>
       <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="nav-panel" id="site-nav" data-nav-panel aria-label="Primary">
         ${n('/index.html', 'home', L.home)}
 
         <div class="nav-group">
-          <button type="button">${L.solutions}${caret}</button>
+          ${dropBtn(L.solutions)}
           <div class="dropdown">
             ${n('/solutions/oil-gas.html', 'sol-oil', L.solOil)}
             ${n('/solutions/water-infrastructure.html', 'sol-water', L.solWater)}
@@ -189,7 +196,7 @@ function buildNav(lang, active) {
         </div>
 
         <div class="nav-group">
-          <button type="button">${L.coatings}${caret}</button>
+          ${dropBtn(L.coatings)}
           <div class="dropdown">
             ${n('/coatings/3lpe-3lpp.html', 'coat-3lpe', L.coat3)}
             ${n('/coatings/fbe.html', 'coat-fbe', L.coatFbe)}
@@ -203,7 +210,7 @@ function buildNav(lang, active) {
         ${n('/projects.html', 'projects', L.projects)}
 
         <div class="nav-group">
-          <button type="button">${L.resources}${caret}</button>
+          ${dropBtn(L.resources)}
           <div class="dropdown">
             ${n('/resources/coating-comparison.html', 'res', L.resComp)}
           </div>
