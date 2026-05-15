@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hebei Hengyuan Industrial — Language</title>
   <meta name="description" content="Choose English or 中文 for Hebei Hengyuan Industrial Co., Ltd." />
+  <script type="module">
+    import { runRootLocaleRedirect } from '/src/lang-preference.mjs'
+    runRootLocaleRedirect()
+  </script>
   <script type="module" src="/src/site.js"></script>
 </head>
 <body>
@@ -13,8 +17,8 @@
       <h1 style="color: var(--accent, #0b2d5c); margin-bottom: 0.5rem;">Hebei Hengyuan / 河北亨源</h1>
       <p style="color: var(--muted, #5c6678); margin-bottom: 1.75rem;">Hebei Hengyuan Industrial Co., Ltd. — select a language.</p>
       <div class="btn-row" style="justify-content: center;">
-        <a class="btn btn-primary" href="/en/index.html">English</a>
-        <a class="btn btn-outline" href="/zh/index.html">中文</a>
+        <a class="btn btn-primary" href="./en/index.html" data-lang-pick="en">English</a>
+        <a class="btn btn-outline" href="./zh/index.html" data-lang-pick="zh">中文</a>
       </div>
       <p class="footnote" style="margin-top: 2rem;">Static preview: run <code>npm run dev</code> from this directory (repo: <code>hengyuan-site</code>).</p>
     </div>

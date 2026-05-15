@@ -28,7 +28,7 @@ function walk(dir) {
 }
 
 if (!fs.existsSync(distRoot)) {
-  console.error('verify-dist: missing dist/ ¡ª run vite build first')
+  console.error('verify-dist: missing dist/ ?? run vite build first')
   process.exit(1)
 }
 
@@ -49,6 +49,27 @@ if (hits.length) {
   console.error('verify-dist: forbidden patterns in production bundle:')
   for (const h of hits) console.error(`  ${h.file} (${h.pattern})`)
   process.exit(1)
+}
+
+const zhIndex = path.join(distRoot, 'zh', 'index.html')
+const enIndex = path.join(distRoot, 'en', 'index.html')
+for (const [label, file, needle] of [
+  ['zh/index.html', zhIndex, '\u4ea8\u6e90'],
+  ['en/index.html', enIndex, 'plastic-coated'],
+]) {
+  if (!fs.existsSync(file)) {
+    console.error(`verify-dist: missing ${label} â€” run npm run build (stitch must run before vite)`)
+    process.exit(1)
+  }
+  const html = fs.readFileSync(file, 'utf8')
+  if (!html.includes(needle)) {
+    console.error(`verify-dist: ${label} looks like wrong content (expected "${needle}")`)
+    process.exit(1)
+  }
+  if (!html.includes('data-lang-switch')) {
+    console.error(`verify-dist: ${label} missing data-lang-switch on language link`)
+    process.exit(1)
+  }
 }
 
 console.log('verify-dist: ok (no QA hooks or javascript: URLs in dist)')

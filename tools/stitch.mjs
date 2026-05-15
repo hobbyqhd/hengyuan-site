@@ -34,7 +34,6 @@ const LABELS_EN = {
   coatCte: 'Coal tar enamel',
   resComp: 'Coating comparison',
   lang: '\u4e2d\u6587',
-  langHref: '/zh/index.html',
 }
 
 /** @typedef {{ lang: 'en'|'zh', out: string, title: string, desc: string, nav: string }} PageDef */
@@ -161,7 +160,15 @@ function navClass(nav, key) {
   return nav === key ? ' class="is-active"' : ''
 }
 
-function buildNav(lang, active) {
+/** @param {'en'|'zh'} lang @param {string} outRel e.g. `products.html` */
+function langSwitchHref(lang, outRel) {
+  const other = lang === 'en' ? 'zh' : 'en'
+  const file = outRel.replace(/^\//, '')
+  // Relative so language switch works on any host/path (e.g. *.pages.dev) without relying on site root.
+  return `../${other}/${file}`
+}
+
+function buildNav(lang, active, outRel) {
   const L = lang === 'en' ? LABELS_EN : zhData.labels
   const B = lang === 'en' ? BRAND_EN : zhData.brand
   const p = lang === 'en' ? '/en' : '/zh'
@@ -219,7 +226,7 @@ function buildNav(lang, active) {
         ${n('/rfq.html', 'rfq', L.rfq)}
         ${n('/contact.html', 'contact', L.contact)}
 
-        <span class="lang-switch"><a href="${L.langHref}">${L.lang}</a></span>
+        <span class="lang-switch"><a href="${langSwitchHref(lang, outRel)}" data-lang-switch data-lang-target="${lang === 'en' ? 'zh' : 'en'}">${L.lang}</a></span>
       </nav>
     </div>
   </header>`
@@ -306,7 +313,7 @@ function buildFooter(lang) {
 const SITE_BASE = (process.env.SITE_BASE_URL || 'https://www.example.com').replace(/\/$/, '')
 
 function layout({ lang, title, description, nav, body, out }) {
-  const navHtml = buildNav(lang, nav)
+  const navHtml = buildNav(lang, nav, out)
   const footerHtml = buildFooter(lang)
   const canonical = `${SITE_BASE}/${lang}/${out.replace(/^\//, '')}`
   const enAlt = `${SITE_BASE}/en/${out}`
