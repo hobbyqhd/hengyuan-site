@@ -1,4 +1,4 @@
-const PAGE_SIZE = 9
+const PAGE_SIZE = 12
 const DEFAULT_IMG = '/images/hy/hp-products/default.svg'
 
 const ZH_ALL = '\u5168\u90e8'

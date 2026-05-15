@@ -249,12 +249,13 @@ img {
   position: absolute;
   top: calc(100% + 0.35rem);
   left: 0;
+  display: none;
   min-width: 15.5rem;
   background: var(--surface);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
   box-shadow: var(--shadow-hover);
-  padding: 0.45rem;
+  padding: 0.55rem 0.45rem 0.45rem;
   z-index: 80;
   list-style: none;
 }
@@ -272,7 +273,6 @@ img {
 
 @media (min-width: 901px) {
   .nav-group > .nav-dropdown {
-    display: block;
     opacity: 0;
     visibility: hidden;
     transform: translateY(8px);
@@ -286,6 +286,7 @@ img {
   .nav-group:hover > .nav-dropdown,
   .nav-group:focus-within > .nav-dropdown,
   .nav-group.is-open > .nav-dropdown {
+    display: block;
     opacity: 1;
     visibility: visible;
     transform: translateY(2px);

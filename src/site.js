@@ -6,6 +6,7 @@ function initNav() {
   if (!toggle || !panel) return
 
   const mqMobileNav = window.matchMedia('(max-width: 900px)')
+  const groups = [...panel.querySelectorAll('.nav-group')]
 
   const closeSubmenus = () => {
     panel.querySelectorAll('.nav-group.is-open').forEach((g) => {
@@ -15,11 +16,20 @@ function initNav() {
     })
   }
 
-  mqMobileNav.addEventListener('change', (e) => {
-    if (!e.matches) closeSubmenus()
+  groups.forEach((group) => {
+    const btn = group.querySelector(':scope > button')
+    if (btn) btn.setAttribute('aria-expanded', 'false')
   })
 
-  panel.querySelectorAll('.nav-group').forEach((group) => {
+  mqMobileNav.addEventListener('change', (e) => {
+    if (!e.matches) {
+      panel.classList.remove('is-open')
+      toggle.setAttribute('aria-expanded', 'false')
+    }
+    closeSubmenus()
+  })
+
+  groups.forEach((group) => {
     const btn = group.querySelector(':scope > button')
     if (!btn) return
     btn.addEventListener('click', (e) => {
@@ -38,13 +48,11 @@ function initNav() {
     })
   })
 
-  if (!mqMobileNav.matches) {
-    document.addEventListener('click', (e) => {
-      if (!(e.target instanceof Element)) return
-      if (e.target.closest('.nav-group')) return
-      closeSubmenus()
-    })
-  }
+  document.addEventListener('click', (e) => {
+    if (!(e.target instanceof Element)) return
+    if (e.target.closest('.nav-group')) return
+    closeSubmenus()
+  })
 
   toggle.addEventListener('click', () => {
     const open = panel.classList.toggle('is-open')
