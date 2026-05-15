@@ -18,24 +18,7 @@ function initNav() {
   })
 }
 
-/** Collapsible product filter sidebar (mobile). */
-function initProductFilterPanel() {
-  const root = document.querySelector('[data-product-filter-root]')
-  if (!root) return
-  const aside = root.querySelector('.filter-panel')
-  const toggle = root.querySelector('[data-filter-toggle]')
-  if (!aside || !toggle) return
-
-  toggle.addEventListener('click', () => {
-    const open = aside.classList.toggle('is-open')
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false')
-  })
-}
-
-/**
- * Filter product sections (and optional cards) by `data-family`.
- * All sections visible when no checkbox is selected (SEO: DOM stays intact).
- */
+/** Product family filter in catalog toolbar. */
 function initProductFamilyFilter() {
   const root = document.querySelector('[data-product-filter-root]')
   if (!root) return
@@ -255,7 +238,6 @@ function initPrintQuote() {
 
 document.addEventListener('DOMContentLoaded', () => {
   initNav()
-  initProductFilterPanel()
   initProductFamilyFilter()
   initCounters()
   initCertLightbox()

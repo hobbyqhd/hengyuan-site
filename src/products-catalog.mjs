@@ -202,6 +202,10 @@ export function initProductCatalog() {
   filterRoot?.addEventListener('product-family-filter', (e) => {
     if (!state || !e.detail) return
     state.selectedFamilies = Array.isArray(e.detail.selected) ? [...e.detail.selected] : []
+    if (e.detail.showAll) {
+      state.categoryId = 'all'
+      renderCategories()
+    }
     state.page = 1
     renderGrid()
   })
