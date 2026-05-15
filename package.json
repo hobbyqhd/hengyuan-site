@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "sync:hy-images": "node tools/sync-hy-images.mjs",
     "predev": "node tools/stitch.mjs",
     "dev": "vite --config vite.site.config.mjs",
     "prebuild": "node tools/stitch.mjs",

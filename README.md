@@ -1,4 +1,4 @@
-# Hongkehua static site
+# Hebei Hengyuan (亨源) static marketing site
 
 Vite multi-page (MPA) with English (`/en/`) and Chinese (`/zh/`) entry points. Shared layout is generated from `content/fragments/` via `tools/stitch.mjs` so navigation and footers stay consistent.
 

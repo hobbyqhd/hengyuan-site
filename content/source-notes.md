@@ -1,24 +1,25 @@
 # Source notes — claim provenance
 
-This file maps on-site statements to **Baidu Baike (百科)** public-profile style facts versus items that require **client confirmation**. It supports legal/marketing review; it is not a warranty document.
+This file maps on-site statements to **public hy-main / hypipelines** messaging versus items that require **client confirmation**. It supports legal/marketing review; it is not a warranty document.
 
 | Topic | Site handling | Provenance |
 | --- | --- | --- |
-| Legal entity Chinese name | 「宏科华管道装备制造有限公司」 | Baike company name — **client to confirm** exact legal name on license |
-| English branding | "Hongkehua Pipeline Equipment Co., Ltd." | Working translation for web — **client to confirm** official English name if registered |
-| Founded **2018** | Stated on home + trust strip | Baike "成立时间" style fact — verify against business license |
-| Location **Cangzhou / Yanshan, Hebei** | High-level geography only | Baike address-style fact — **client to confirm** full registered address, postal code, and any export office |
-| Product mix (expanded product page sections) | Products page + coatings | Baike product lists — catalogs, grades, schedules **client to confirm** |
-| ISO 9001 / 14001 / 45001 | Compliance types only, no images | Baike mentions — certificate scope, expiry, accreditation body **client to confirm** |
-| Drinking-water hygiene / safety permit (涉水) | Compliance + water solution pages (types) | Baike mention — number, product coverage **client to confirm** |
-| Special equipment manufacturing license (特种设备制造许可) | Compliance (types) | Baike mention — class & limits **client to confirm** |
-| "Three major oil suppliers network" (三桶油供应商网络) | Soft, qualified wording on EN/ZH oil-gas pages | Baike narrative — **client/legal review** before hard claims |
-| Employee count, revenue, ranking | **Not used** on this template | Baike sometimes lists such stats — omitted by design as potentially dated/controversial |
+| Legal entity Chinese name | 「河北亨源实业有限公司」 | hy-main structured data / site — **client to confirm** exact license wording |
+| English branding | "Hebei Hengyuan Industrial Co., Ltd." (`legalName` in JSON-LD) | hy-main — **client to confirm** registered English name if different |
+| Founded **2005** | About teaser + counters aligned to hy-main | JSON-LD `foundingDate` — verify against business license |
+| Location **Cangzhou / Yanshan, Hebei** | Contact + JSON-LD `PostalAddress` | hy-main — **client to confirm** bilingual address block for contracts |
+| Product mix (product page) | Four families aligned to hy-main index cards | hy-main public pages — catalogs, grades, schedules **client to confirm** |
+| ISO 9001 / CE / SGS | Compliance + manufacturing copy | hy-main about/quality tone — certificate scope **client to confirm** |
+| Drinking-water hygiene / safety permit (涉水) | Compliance + water solution pages (types) | Generic types — number, product coverage **client to confirm** |
+| Special equipment manufacturing license (特种设备制造许可) | Compliance (types) | Generic types — class & limits **client to confirm** |
+| National high-tech enterprise, export scope | Home trust strip / hero | hy-main index meta — **client/legal review** before hard claims in regulated markets |
+| Employee count, revenue, ranking | **Not used** on this template | Omitted by design |
 | Technical comparison table | Non-binding engineering summary | Industry common knowledge + **client to confirm** project-specific selections |
-| Factory photos | Stock images (Pexels/Unsplash) | **Illustrative only** until client provides audited photography |
-| Email `sales-placeholder@hongkehua.example` | RFQ + contact | **Placeholder** — replace before production |
-| WhatsApp / phone / hours | Placeholders | **Client to supply** |
-| Anonymous project cards | Fictionalized patterns | **Not** mapped to Baike; replace with approved references when allowed |
+| Factory / product photos | `/images/hy/...` copied from hy-main scan | Company asset paths from hy-main repo — **client to confirm** reuse rights for this static site |
+| Email `sales@hypipelines.com` | RFQ + contact | hy-main JSON-LD |
+| Phone +86-189-3171-0082 | Contact | hy-main JSON-LD / contact page |
+| WhatsApp / other IM | **Not listed** | **Client to supply** if needed |
+| Anonymous project cards on projects.html | Legacy template | Replace with approved references when allowed; home index now cites named hy-main case studies |
 
 ## Encoding / English fragments
 
@@ -30,5 +31,5 @@ This file maps on-site statements to **Baidu Baike (百科)** public-profile sty
 
 ## Maintenance
 
-- When Baike and the business license disagree, **the license wins**.
+- When public web copy and the business license disagree, **the license wins**.
 - Before publishing certificate thumbnails, obtain **compliance sign-off** and control distribution (extranet, not necessarily public web).

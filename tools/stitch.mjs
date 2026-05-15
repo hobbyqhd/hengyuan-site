@@ -10,7 +10,7 @@ const zhData = JSON.parse(
   fs.readFileSync(path.join(root, 'content', 'i18n', 'zh.json'), 'utf8'),
 )
 
-const BRAND_EN = { name: 'Hongkehua', sub: 'Pipeline Equipment Co., Ltd.' }
+const BRAND_EN = { name: 'Hebei Hengyuan Industrial', sub: 'Co., Ltd.' }
 
 const LABELS_EN = {
   home: 'Home',
@@ -40,21 +40,111 @@ const LABELS_EN = {
 /** @typedef {{ lang: 'en'|'zh', out: string, title: string, desc: string, nav: string }} PageDef */
 
 const EN_MANIFEST = /** @type {PageDef[]} */ ([
-  { lang: 'en', out: 'index.html', title: 'Hongkehua Pipeline Equipment', desc: 'Anti-corrosion coated steel pipe, fittings, and pipeline solutions for oil & gas, water, and industrial projects.', nav: 'home' },
-  { lang: 'en', out: 'solutions/oil-gas.html', title: 'Oil & gas pipeline solutions | Hongkehua', desc: 'Coated line pipe and fittings for hydrocarbon transport and gathering systems.', nav: 'sol-oil' },
-  { lang: 'en', out: 'solutions/water-infrastructure.html', title: 'Water & infrastructure | Hongkehua', desc: 'Drinking-water-grade coatings, distribution mains, and civil infrastructure pipe systems.', nav: 'sol-water' },
-  { lang: 'en', out: 'solutions/industrial-power.html', title: 'Industrial & power piping | Hongkehua', desc: 'Protective coatings and pipe packages for process plants, power generation, and general industry.', nav: 'sol-ind' },
-  { lang: 'en', out: 'coatings/3lpe-3lpp.html', title: '3LPE / 3LPP external coatings | Hongkehua', desc: 'Multi-layer polyolefin external anti-corrosion systems for buried and immersed pipelines.', nav: 'coat-3lpe' },
-  { lang: 'en', out: 'coatings/fbe.html', title: 'Fusion-bonded epoxy (FBE) | Hongkehua', desc: 'Single-layer and dual-layer FBE systems for internal and external corrosion protection.', nav: 'coat-fbe' },
-  { lang: 'en', out: 'coatings/coal-tar-enamel.html', title: 'Epoxy coal tar enamel (CTE) | Hongkehua', desc: 'Traditional bituminous enamel systems where project specifications require them.', nav: 'coat-cte' },
-  { lang: 'en', out: 'products.html', title: 'Products overview | Hongkehua', desc: 'Six product families from public Baike scope: plastic-coated, anti-corrosion, insulation, cable conduit, fittings, and base steel pipe (illustrative photos).', nav: 'products' },
-  { lang: 'en', out: 'manufacturing.html', title: 'Manufacturing & QA | Hongkehua', desc: 'Production workflow, inspection mindset, and documentation for coated pipe programs.', nav: 'mfg' },
-  { lang: 'en', out: 'compliance.html', title: 'Compliance & certifications | Hongkehua', desc: 'ISO, environmental, occupational health & safety, drinking water, and special equipment licensing - types and placeholders.', nav: 'compliance' },
-  { lang: 'en', out: 'projects.html', title: 'Selected projects | Hongkehua', desc: 'Anonymous case studies illustrating typical scopes for coated pipe supply.', nav: 'projects' },
-  { lang: 'en', out: 'resources/coating-comparison.html', title: 'Coating comparison (overview) | Hongkehua', desc: 'High-level comparison of 3LPE/3LPP, FBE, and coal tar enamel for engineers and buyers.', nav: 'res' },
-  { lang: 'en', out: 'rfq.html', title: 'Request a quote | Hongkehua', desc: 'Structured RFQ form routed via email (mailto). Replace placeholders with production contacts.', nav: 'rfq' },
-  { lang: 'en', out: 'contact.html', title: 'Contact | Hongkehua', desc: 'Office location (public record), channels, and business hours placeholder.', nav: 'contact' },
-  { lang: 'en', out: 'privacy.html', title: 'Privacy notice | Hongkehua', desc: 'Minimal placeholder privacy statement for the static marketing site.', nav: 'privacy' },
+  {
+    lang: 'en',
+    out: 'index.html',
+    title: 'Plastic-Coated Steel Pipe Manufacturer | 3PE/TPEP Anti-Corrosion Pipes — Hebei Hengyuan',
+    desc: 'Hebei Hengyuan Industrial is a national high-tech enterprise manufacturing plastic-coated steel pipes, 3PE/TPEP anti-corrosion pipes, galvanized pipes & fittings (DN15-DN2200) for 60+ countries.',
+    nav: 'home',
+  },
+  {
+    lang: 'en',
+    out: 'solutions/oil-gas.html',
+    title: 'Oil & gas pipeline solutions — Hebei Hengyuan',
+    desc: 'Plastic-coated, 3PE/TPEP and galvanized line pipe and fittings for gathering, transmission and gas distribution — coatings and MTRs per your ITP.',
+    nav: 'sol-oil',
+  },
+  {
+    lang: 'en',
+    out: 'solutions/water-infrastructure.html',
+    title: 'Water & infrastructure piping — Hebei Hengyuan',
+    desc: 'Potable-water-grade plastic coating, internal and external anti-corrosion systems, and large-diameter water transmission options discussed against project hygiene codes.',
+    nav: 'sol-water',
+  },
+  {
+    lang: 'en',
+    out: 'solutions/industrial-power.html',
+    title: 'Industrial & energy piping — Hebei Hengyuan',
+    desc: 'Coated and lined steel pipe packages for process plants, power and general industry, aligned with service conditions and inspection regimes you provide.',
+    nav: 'sol-ind',
+  },
+  {
+    lang: 'en',
+    out: 'coatings/3lpe-3lpp.html',
+    title: '3PE / multi-layer polyolefin external coatings — Hebei Hengyuan',
+    desc: 'External layered polyolefin systems commonly used for buried and immersed steel pipe — layer build and thickness per project specification.',
+    nav: 'coat-3lpe',
+  },
+  {
+    lang: 'en',
+    out: 'coatings/fbe.html',
+    title: 'Fusion-bonded epoxy (FBE) — Hebei Hengyuan',
+    desc: 'Single- and dual-layer FBE and related fusion-bonded epoxy systems for internal and external corrosion protection where epoxy is specified.',
+    nav: 'coat-fbe',
+  },
+  {
+    lang: 'en',
+    out: 'coatings/coal-tar-enamel.html',
+    title: 'Epoxy coal tar enamel & bituminous systems — Hebei Hengyuan',
+    desc: 'Coal-tar enamel and epoxy coal tar systems when legacy owner standards or specifications still reference them, subject to regional HSE rules.',
+    nav: 'coat-cte',
+  },
+  {
+    lang: 'en',
+    out: 'products.html',
+    title: 'Products: Plastic-Coated, 3PE, TPEP, Galvanized Steel Pipes & Fittings — Hebei Hengyuan',
+    desc: 'Full product range: plastic-coated steel pipes, 3PE/TPEP anti-corrosion pipes, galvanized pipes, fire-fighting pipes, cable conduits and matching fittings. DN15-DN2200, customizable color & joints.',
+    nav: 'products',
+  },
+  {
+    lang: 'en',
+    out: 'manufacturing.html',
+    title: 'Manufacturing & quality assurance — Hebei Hengyuan',
+    desc: 'Production flow, key inspection equipment and batch-release mindset — ISO9001 / CE / SGS framing; detailed hold points follow contract and ITP.',
+    nav: 'mfg',
+  },
+  {
+    lang: 'en',
+    out: 'compliance.html',
+    title: 'Certifications & compliance — Hebei Hengyuan',
+    desc: 'ISO9001, CE, SGS and related quality system framing; drinking-water and special-equipment topics as types of evidence supplied through controlled channels.',
+    nav: 'compliance',
+  },
+  {
+    lang: 'en',
+    out: 'projects.html',
+    title: 'Case studies — water, fire & gas projects — Hebei Hengyuan',
+    desc: 'Hengyuan plastic-coated and 3PE/TPEP pipes in municipal water, fire protection, gas distribution, mining drainage and cable protection — representative scopes.',
+    nav: 'projects',
+  },
+  {
+    lang: 'en',
+    out: 'resources/coating-comparison.html',
+    title: 'Coating comparison (overview) — Hebei Hengyuan',
+    desc: 'High-level strengths and caveats for 3LPE/3LPP, FBE and coal tar enamel — defer to project NACE/ISO and owner standards.',
+    nav: 'res',
+  },
+  {
+    lang: 'en',
+    out: 'rfq.html',
+    title: 'Request a quote — Hebei Hengyuan Industrial Co., Ltd.',
+    desc: 'Structured RFQ routed by email — include line items, standards, quantities and required inspection regime.',
+    nav: 'rfq',
+  },
+  {
+    lang: 'en',
+    out: 'contact.html',
+    title: 'Contact Hebei Hengyuan — plastic-coated steel pipe quotes & technical support',
+    desc: 'Contact Hebei Hengyuan Industrial 24/7 for plastic-coated steel pipe quotes, 3PE/TPEP technical consultation, custom orders and samples. Tel +86-189-3171-0082, Yanshan Industrial Park, Hebei.',
+    nav: 'contact',
+  },
+  {
+    lang: 'en',
+    out: 'privacy.html',
+    title: 'Privacy notice — Hebei Hengyuan',
+    desc: 'Minimal privacy statement for this static marketing site.',
+    nav: 'privacy',
+  },
 ])
 
 const ZH_MANIFEST = zhData.pages.map((p) => ({
@@ -136,13 +226,14 @@ function buildFooter(lang) {
   const t =
     lang === 'en'
       ? {
-          tagline: 'Anti-corrosion steel pipe, fittings, and engineered pipeline packages.',
+          tagline:
+            'Plastic-coated, 3PE/TPEP anti-corrosion and galvanized steel pipe and fittings — DN15–DN2200 for municipal, fire, gas and export projects.',
           line1:
-            'Hongkehua Pipeline Equipment Co., Ltd. - anti-corrosion steel pipe, fittings, and pipeline packages.',
-          line2: 'Images are illustrative stock photography until factory photography is provided.',
+            'Hebei Hengyuan Industrial Co., Ltd. — pipeline anti-corrosion and plastic-coated steel pipe manufacturing and supply.',
+          line2: 'Site imagery is drawn from company assets; technical data is governed by datasheets, contracts and third-party inspection.',
           line3:
-            'Technical tables are summary guidance only; project specs, standards, and third-party inspection govern.',
-          copy: `\u00a9 ${year} Hongkehua Pipeline Equipment Co., Ltd. All rights reserved.`,
+            'Summary tables are non-binding; invoked standards, owner specifications and inspection plans take precedence.',
+          copy: `\u00a9 ${year} Hebei Hengyuan Industrial Co., Ltd. All rights reserved.`,
         }
       : { ...zhData.footer }
 
