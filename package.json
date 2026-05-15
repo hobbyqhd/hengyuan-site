@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "predev": "node tools/stitch.mjs",
-    "dev": "vite",
+    "dev": "vite --config vite.site.config.mjs",
     "prebuild": "node tools/stitch.mjs",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build --config vite.site.config.mjs",
+    "preview": "vite preview --config vite.site.config.mjs",
+    "deploy": "npm run build && wrangler pages deploy dist"
   },
   "devDependencies": {
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "wrangler": "^4.22.0"
   }
 }

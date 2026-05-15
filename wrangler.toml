@@ -1,0 +1,7 @@
+# Static assets: lets `wrangler deploy` upload ./dist without parsing vite.config.js
+# Prefer Pages: npm run deploy  (wrangler pages deploy dist)
+name = "hongkehua-site"
+compatibility_date = "2025-05-01"
+
+[assets]
+directory = "./dist"

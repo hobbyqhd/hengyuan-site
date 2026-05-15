@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 import { resolve, join, relative } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { readdirSync, statSync } from 'node:fs'
+
+const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 function collectHtmlInputs(rootDir, keyPrefix) {
   const inputs = {}
@@ -9,10 +12,10 @@ function collectHtmlInputs(rootDir, keyPrefix) {
       const full = join(dir, name)
       if (statSync(full).isDirectory()) walk(full)
       else if (name.endsWith('.html')) {
-        const rel = relative(rootDir, full).replaceAll('\\', '/')
+        const rel = relative(rootDir, full).replace(/\\/g, '/')
         const key =
-          `${keyPrefix}_${rel.replaceAll('/', '_').replace(/\.html$/, '')}`.replaceAll(
-            '-',
+          `${keyPrefix}_${rel.replace(/\//g, '_').replace(/\.html$/, '')}`.replace(
+            /-/g,
             '_',
           )
         inputs[key] = full
