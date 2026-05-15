@@ -167,8 +167,8 @@ function buildNav(lang, active) {
   const p = lang === 'en' ? '/en' : '/zh'
   const n = (href, key, label) => `<a href="${p}${href}"${navClass(active, key)}>${label}</a>`
   const caret = '<span class="nav-caret" aria-hidden="true">\u25be</span>'
-  const dropBtn = (label) =>
-    `<button type="button"><span class="nav-label">${label}</span>${caret}</button>`
+  const dropBtn = (label, ddId) =>
+    `<button type="button" aria-expanded="false" aria-controls="${ddId}" aria-haspopup="true"><span class="nav-label">${label}</span>${caret}</button>`
   const brandAlt =
     lang === 'en' ? 'Hebei Hengyuan Industrial Co., Ltd.' : '河北亨源实业有限公司'
 
@@ -187,8 +187,8 @@ function buildNav(lang, active) {
         ${n('/index.html', 'home', L.home)}
 
         <div class="nav-group">
-          ${dropBtn(L.solutions)}
-          <div class="dropdown">
+          ${dropBtn(L.solutions, 'nav-dd-solutions')}
+          <div class="nav-dropdown" id="nav-dd-solutions" role="group">
             ${n('/solutions/oil-gas.html', 'sol-oil', L.solOil)}
             ${n('/solutions/water-infrastructure.html', 'sol-water', L.solWater)}
             ${n('/solutions/industrial-power.html', 'sol-ind', L.solInd)}
@@ -196,8 +196,8 @@ function buildNav(lang, active) {
         </div>
 
         <div class="nav-group">
-          ${dropBtn(L.coatings)}
-          <div class="dropdown">
+          ${dropBtn(L.coatings, 'nav-dd-coatings')}
+          <div class="nav-dropdown" id="nav-dd-coatings" role="group">
             ${n('/coatings/3lpe-3lpp.html', 'coat-3lpe', L.coat3)}
             ${n('/coatings/fbe.html', 'coat-fbe', L.coatFbe)}
             ${n('/coatings/coal-tar-enamel.html', 'coat-cte', L.coatCte)}
@@ -210,8 +210,8 @@ function buildNav(lang, active) {
         ${n('/projects.html', 'projects', L.projects)}
 
         <div class="nav-group">
-          ${dropBtn(L.resources)}
-          <div class="dropdown">
+          ${dropBtn(L.resources, 'nav-dd-resources')}
+          <div class="nav-dropdown" id="nav-dd-resources" role="group">
             ${n('/resources/coating-comparison.html', 'res', L.resComp)}
           </div>
         </div>
