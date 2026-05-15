@@ -2,9 +2,10 @@
 /**
  * Prepare hy-main product JSON for the static site.
  *
- * CI without hy-main: exits 0 and writes minimal placeholder JSON under public/data/
- * so `npm run build` still succeeds (see stderr warning). Regenerate locally with
- * HY_MAIN_ROOT or a sibling hy-main checkout.
+ * CI without hy-main: if committed `public/data/products-*.json` already contain a
+ * real catalog, those files are left unchanged and SEO is refreshed from them.
+ * Otherwise writes minimal placeholder JSON so `npm run build` still succeeds.
+ * Regenerate from source with HY_MAIN_ROOT or a sibling hy-main checkout.
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -25,6 +26,8 @@ const FRAG_EN = path.join(siteRoot, 'content', 'fragments', 'en', 'products.html
 
 const SEO_BLOCK_RE =
   /(<!--\s*SEO_CATALOG_START\s*-->)[\s\S]*?(<!--\s*SEO_CATALOG_END\s*-->)/
+/** Skip tiny/invalid files when deciding whether committed JSON is usable. */
+const MIN_CATALOG_FILE_BYTES = 128
 
 const PLACEHOLDER = {
   metadata: {
@@ -111,7 +114,7 @@ function escapeHtml(s) {
 
 const SEO_SEP = '\uff1b'
 const SEO_TITLE_ZH =
-  '\u4ee5\u4e0b\u4e3a\u4ea7\u54c1\u76ee\u5f55\u6458\u8981\uff08\u5b8c\u6574\u4ea4\u4e92\u9700\u542f\u7528 JavaScript\uff09\uff1a'
+  '\u4ee5\u4e0b\u4e3a\u4ea7\u54c1\u76ee\u5f55\u6458\u8981\uff08\u7ad9\u5185\u641c\u7d22\u4e0e\u5206\u9875\u9700\u542f\u7528 JavaScript\uff09\uff1a'
 
 /**
  * @param {{ categories: { id: string, name: string }[], products: { categoryId: string, categoryName: string, name: string }[] }} data
@@ -127,7 +130,10 @@ function buildSeoCatalogHtml(data, lang) {
       `<li><strong>${escapeHtml(c.name)}</strong>${countWrap}${names ? `${lang === 'zh' ? '\uff1a' : ': '}${names}` : ''}</li>`,
     )
   }
-  const title = lang === 'zh' ? SEO_TITLE_ZH : 'Product catalog summary (full interactivity requires JavaScript):'
+  const title =
+    lang === 'zh'
+      ? SEO_TITLE_ZH
+      : 'Product catalog summary (search and pagination in the site require JavaScript):'
   return `<div class="seo-catalog-fallback" data-seo-catalog="1"><p class="fine">${escapeHtml(title)}</p><ul>${lines.join('')}</ul></div>`
 }
 
@@ -141,6 +147,110 @@ function injectSeoBlock(fragPath, seoInner) {
   }
   html = html.replace(SEO_BLOCK_RE, `$1\n${seoInner}\n$2`)
   fs.writeFileSync(fragPath, html, 'utf8')
+}
+
+/** @param {string} p */
+function readJsonSafe(p) {
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'))
+  } catch {
+    return null
+  }
+}
+
+/** @param {any} data */
+function isRealProductCatalogData(data) {
+  if (!data || typeof data !== 'object') return false
+  if (data.metadata && data.metadata.placeholder === true) return false
+  const nMeta = Number(data.metadata?.totalProducts) || 0
+  const nProd = Array.isArray(data.products) ? data.products.length : 0
+  return nMeta > 0 || nProd > 0
+}
+
+/** @param {string} p */
+function isRealCatalogJsonFile(p) {
+  if (!fs.existsSync(p)) return false
+  try {
+    const st = fs.statSync(p)
+    if (!st.isFile() || st.size < MIN_CATALOG_FILE_BYTES) return false
+  } catch {
+    return false
+  }
+  return isRealProductCatalogData(readJsonSafe(p))
+}
+
+/** @param {string} p */
+function isRealFamilyMapFile(p) {
+  if (!fs.existsSync(p)) return false
+  const data = readJsonSafe(p)
+  if (!data || typeof data !== 'object') return false
+  if (data.placeholder === true) return false
+  const m = data.byCategoryId
+  return m && typeof m === 'object' && Object.keys(m).length > 0
+}
+
+/**
+ * @param {object} data product catalog JSON (cn or en shape)
+ * @returns {Record<string, string>}
+ */
+function familyMapFromCatalogData(data) {
+  const familyByCategoryId = {}
+  for (const c of data.categories || []) {
+    if (c?.id) familyByCategoryId[c.id] = classifyCategoryFamily(c.name || '')
+  }
+  return familyByCategoryId
+}
+
+/** @param {string} hyMainRoot */
+function useCommittedCatalogWhenHyMainMissing(hyMainRoot) {
+  if (!isRealCatalogJsonFile(OUT_ZH) || !isRealCatalogJsonFile(OUT_EN)) return false
+
+  console.warn(
+    `prepare-products: hy-main missing (looked under ${hyMainRoot}); keeping committed JSON in public/data/ (set HY_MAIN_ROOT to regenerate from source).`,
+  )
+
+  const zhData = readJsonSafe(OUT_ZH)
+  const enData = readJsonSafe(OUT_EN)
+  if (!zhData || !enData) return false
+
+  const neededFamily = !isRealFamilyMapFile(OUT_FAMILY)
+  if (neededFamily) {
+    const mergedFamily = { ...familyMapFromCatalogData(zhData), ...familyMapFromCatalogData(enData) }
+    fs.mkdirSync(path.dirname(OUT_FAMILY), { recursive: true })
+    fs.writeFileSync(
+      OUT_FAMILY,
+      `${JSON.stringify({ byCategoryId: mergedFamily }, null, 2)}\n`,
+      'utf8',
+    )
+  }
+
+  const missing = [...new Set([...listMissingImages(zhData), ...listMissingImages(enData)])].sort()
+  fs.mkdirSync(path.dirname(MISSING_REPORT), { recursive: true })
+  fs.writeFileSync(
+    MISSING_REPORT,
+    missing.length ? `${missing.join('\n')}\n` : '(none)\n',
+    'utf8',
+  )
+
+  injectSeoBlock(FRAG_ZH, buildSeoCatalogHtml(zhData, 'zh'))
+  injectSeoBlock(FRAG_EN, buildSeoCatalogHtml(enData, 'en'))
+
+  console.log(
+    JSON.stringify(
+      {
+        hyMainRoot,
+        mode: 'committed-json',
+        kept: [OUT_ZH, OUT_EN],
+        rewroteFamilyMap: neededFamily,
+        seoFragments: [FRAG_ZH, FRAG_EN],
+        missingImages: missing.length,
+        missingReport: MISSING_REPORT,
+      },
+      null,
+      2,
+    ),
+  )
+  return true
 }
 
 /** @param {string} urlPath e.g. /images/hy/foo.jpg */
@@ -194,9 +304,9 @@ function writePlaceholderOutputs(message) {
     'utf8',
   )
   const emptySeoZh =
-    '<p class="fine">\u4ea7\u54c1\u76ee\u5f55\u6570\u636e\u672a\u751f\u6210\uff08\u672a\u627e\u5230 hy-main\uff09\u3002\u542f\u7528 JavaScript \u540e\u6d4f\u89c8\u5b8c\u6574\u76ee\u5f55\u3002</p>'
+    '<p class="fine">\u672c\u6784\u5efa\u672a\u5305\u542b\u4ea7\u54c1\u76ee\u5f55\u6570\u636e\u3002\u5b8c\u6574\u76ee\u5f55\u3001\u641c\u7d22\u4e0e\u5206\u9875\u9700\u5728\u6d4f\u89c8\u5668\u4e2d\u542f\u7528 JavaScript\u3002</p>'
   const emptySeoEn =
-    '<p class="fine">Product catalog data was not generated (hy-main missing). Enable JavaScript for the full catalog.</p>'
+    '<p class="fine">This build does not include product catalog data. The full catalog, search, and pagination require JavaScript in your browser.</p>'
   injectSeoBlock(FRAG_ZH, emptySeoZh)
   injectSeoBlock(FRAG_EN, emptySeoEn)
   fs.mkdirSync(path.dirname(MISSING_REPORT), { recursive: true })
@@ -208,6 +318,10 @@ function main() {
   const enPath = path.join(hyMainRoot, 'en', 'products.json')
 
   if (!fs.existsSync(hyMainRoot) || !fs.existsSync(cnPath) || !fs.existsSync(enPath)) {
+    if (useCommittedCatalogWhenHyMainMissing(hyMainRoot)) {
+      process.exit(0)
+      return
+    }
     writePlaceholderOutputs(`hy-main or products.json missing (looked under ${hyMainRoot})`)
     process.exit(0)
     return

@@ -215,6 +215,14 @@ export function initProductCatalog() {
       return r.json()
     })
     .then((data) => {
+      const hasProducts =
+        data &&
+        data.metadata?.placeholder !== true &&
+        Array.isArray(data.products) &&
+        data.products.length > 0
+      if (!hasProducts) {
+        throw new Error('empty-catalog')
+      }
       state = buildState(data)
       const boxes = filterRoot?.querySelectorAll('input[type="checkbox"][name="product-family"]')
       if (boxes?.length) {
