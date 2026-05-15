@@ -7,7 +7,7 @@ Internationalization assessment (gaps, hreflang, encoding): [docs/INTERNATIONALI
 ## Install
 
 ```bash
-cd hongkehua-site
+cd hengyuan-site
 npm install
 ```
 
@@ -55,10 +55,10 @@ Set **`SITE_BASE_URL`** to that URL (or your custom domain) before build when yo
 ## Deploy to Cloudflare Pages (optional)
 
 
-1. Push the **hengyuan-site** repository (GitHub: `hobbyqhd/hengyuan-site`) to GitHub/GitLab. In a monorepo, use only the `hongkehua-site/` folder on disk.
+1. Push the **hengyuan-site** repository (GitHub: `hobbyqhd/hengyuan-site`) to GitHub/GitLab. In a monorepo, use only the `hengyuan-site/` folder on disk.
 2. In [Cloudflare Dashboard](https://dash.cloudflare.com/) ?? **Workers & Pages** ?? **Create** ?? **Pages** ?? **Connect to Git**.
 3. Select the repository and set:
-   - **Root directory** (if deploying from monorepo): `hongkehua-site`
+   - **Root directory** (if deploying from monorepo): `hengyuan-site`
    - **Build command**: `npm run build`
    - **Build output directory**: `dist`
 4. **Environment**: Node 20+ recommended (matches Vite 6). Add **`SITE_BASE_URL`** (e.g. `https://www.yourcompany.com`) so `canonical` and `hreflang` links are correct.
