@@ -1,10 +1,53 @@
-<h1>Request for quote (RFQ)</h1>
-<p class="lead">This form uses a <code>mailto:</code> GET submission so it works on static hosting without a backend. Replace the placeholder email before production use.</p>
-<div class="card" style="margin-bottom: 1.25rem;">
+<h1 class="print-hide">Request for quote (RFQ)</h1>
+<p class="lead print-hide">This form uses a <code>mailto:</code> GET submission so it works on static hosting without a backend. Replace the placeholder email before production use.</p>
+
+<section class="pipe-calc print-hide" data-pipe-calc aria-labelledby="pipe-calc-title">
+  <h2 id="pipe-calc-title">Pipe weight estimator (steel, metric)</h2>
+  <p class="note" style="margin: 0 0 0.75rem;">Approximate mass from OD, wall, length, and density. For procurement mass, use mill calculation rules and applicable tolerances.</p>
+  <div class="pipe-calc__grid">
+    <label>OD (mm)
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-od value="219.1" />
+    </label>
+    <label>Wall (mm)
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-wall value="8.18" />
+    </label>
+    <label>Length (m)
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-length value="12" />
+    </label>
+    <label>Density (kg/m³)
+      <input type="number" inputmode="decimal" min="0" step="1" data-pipe-density value="7850" />
+    </label>
+  </div>
+  <div class="pipe-calc__out" data-pipe-out data-msg-invalid="Enter positive OD, wall, length, and density (ID = OD − 2t must stay &gt; 0).">—</div>
+  <p class="fine" style="margin-top: 0.65rem;">Formula (comments in site.js): annulus steel area × length × density.</p>
+</section>
+
+<p class="print-hide" style="margin: 1rem 0;">
+  <button type="button" class="btn btn-outline" data-print-quote>Print quote summary</button>
+</p>
+
+<section class="print-only print-quote-sheet" data-print-quote-sheet aria-label="Printable quote summary">
+  <h1>RFQ summary (draft)</h1>
+  <p class="fine">Generated from this page for internal handoff. Not a commercial offer.</p>
+  <dl style="margin-top: 1rem; display: grid; gap: 0.35rem 1rem;">
+    <dt><strong>Company</strong></dt><dd data-print-company>—</dd>
+    <dt><strong>Contact</strong></dt><dd data-print-contact>—</dd>
+    <dt><strong>Email</strong></dt><dd data-print-email>—</dd>
+    <dt><strong>Phone</strong></dt><dd data-print-phone>—</dd>
+    <dt><strong>Target date</strong></dt><dd data-print-needdate>—</dd>
+    <dt><strong>Standards / data sheets</strong></dt><dd data-print-standard>—</dd>
+  </dl>
+  <p style="margin-top: 1rem;"><strong>Scope</strong></p>
+  <p data-print-scope style="white-space: pre-wrap;">—</p>
+  <p style="margin-top: 1rem;"><strong>Pipe estimator snapshot</strong></p>
+  <p data-print-pipe class="tabular-nums">—</p>
+</section>
+
+<div class="card print-hide" style="margin-bottom: 1.25rem;">
   <h2>Formspree alternative (documented)</h2>
   <p>To use <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a>, create a form, set <code>action="https://formspree.io/f/YOUR_ID"</code> with <code>method="POST"</code>, and remove the mailto fields. Keep honeypot/spam options enabled.</p>
 </div>
-<form class="rfq" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
+<form class="rfq print-hide" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
   <div>
     <label for="company">Company / organization</label>
     <input id="company" name="company" required autocomplete="organization" />

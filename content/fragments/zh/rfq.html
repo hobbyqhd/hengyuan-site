@@ -1,10 +1,53 @@
-<h1>询价（RFQ）</h1>
-<p class="lead">本表单使用 <code>mailto:</code> 的 GET 方式，便于纯静态托管；正式上线前请替换占位邮箱。</p>
-<div class="card" style="margin-bottom: 1.25rem;">
+<h1 class="print-hide">询价（RFQ）</h1>
+<p class="lead print-hide">本表单使用 <code>mailto:</code> 的 GET 方式，便于纯静态托管；正式上线前请替换占位邮箱。</p>
+
+<section class="pipe-calc print-hide" data-pipe-calc aria-labelledby="pipe-calc-title-zh">
+  <h2 id="pipe-calc-title-zh">钢管重量估算（碳钢，公制）</h2>
+  <p class="note" style="margin: 0 0 0.75rem;">按外径、壁厚、长度与密度估算质量。合同计重请以钢厂规则与公差为准。</p>
+  <div class="pipe-calc__grid">
+    <label>外径 OD（mm）
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-od value="219.1" />
+    </label>
+    <label>壁厚（mm）
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-wall value="8.18" />
+    </label>
+    <label>长度（m）
+      <input type="number" inputmode="decimal" min="0" step="0.01" data-pipe-length value="12" />
+    </label>
+    <label>密度 ρ（kg/m³）
+      <input type="number" inputmode="decimal" min="0" step="1" data-pipe-density value="7850" />
+    </label>
+  </div>
+  <div class="pipe-calc__out" data-pipe-out data-msg-invalid="请输入正数 OD、壁厚、长度与密度，并保证 ID = OD − 2t &gt; 0。">—</div>
+  <p class="fine" style="margin-top: 0.65rem;">公式说明见 <code>site.js</code> 注释：环形截钢面积 × 长度 × 密度。</p>
+</section>
+
+<p class="print-hide" style="margin: 1rem 0;">
+  <button type="button" class="btn btn-outline" data-print-quote>打印询价摘要</button>
+</p>
+
+<section class="print-only print-quote-sheet" data-print-quote-sheet aria-label="可打印询价摘要">
+  <h1>询价摘要（草稿）</h1>
+  <p class="fine">由本页生成，仅供内部流转，不构成要约。</p>
+  <dl style="margin-top: 1rem; display: grid; gap: 0.35rem 1rem;">
+    <dt><strong>公司</strong></dt><dd data-print-company>—</dd>
+    <dt><strong>联系人</strong></dt><dd data-print-contact>—</dd>
+    <dt><strong>邮箱</strong></dt><dd data-print-email>—</dd>
+    <dt><strong>电话</strong></dt><dd data-print-phone>—</dd>
+    <dt><strong>期望回复日期</strong></dt><dd data-print-needdate>—</dd>
+    <dt><strong>标准 / 数据表</strong></dt><dd data-print-standard>—</dd>
+  </dl>
+  <p style="margin-top: 1rem;"><strong>范围摘要</strong></p>
+  <p data-print-scope style="white-space: pre-wrap;">—</p>
+  <p style="margin-top: 1rem;"><strong>重量估算快照</strong></p>
+  <p data-print-pipe class="tabular-nums">—</p>
+</section>
+
+<div class="card print-hide" style="margin-bottom: 1.25rem;">
   <h2>Formspree 备选（说明）</h2>
   <p>在 <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a> 创建表单后，将 <code>action</code> 设为 <code>https://formspree.io/f/YOUR_ID</code>，<code>method="POST"</code>，并启用反垃圾选项。</p>
 </div>
-<form class="rfq" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
+<form class="rfq print-hide" action="mailto:sales-placeholder@hongkehua.example" method="get" enctype="text/plain">
   <div>
     <label for="company">公司 / 机构</label>
     <input id="company" name="company" required autocomplete="organization" />
