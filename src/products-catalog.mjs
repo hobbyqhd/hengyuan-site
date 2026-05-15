@@ -206,7 +206,10 @@ export function initProductCatalog() {
     renderGrid()
   })
 
-  fetch(`/data/products-${lang === 'en' ? 'en' : 'zh'}.json`)
+  const catalogFile = `products-${lang === 'en' ? 'en' : 'zh'}.json`
+  const catalogUrl = `${import.meta.env.BASE_URL || '/'}data/${catalogFile}`
+
+  fetch(catalogUrl)
     .then((r) => {
       if (!r.ok) throw new Error(String(r.status))
       return r.json()
