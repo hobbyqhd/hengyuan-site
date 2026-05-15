@@ -112,28 +112,224 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;')
 }
 
-const SEO_SEP = '\uff1b'
-const SEO_TITLE_ZH =
-  '\u4ee5\u4e0b\u4e3a\u4ea7\u54c1\u76ee\u5f55\u6458\u8981\uff08\u7ad9\u5185\u641c\u7d22\u4e0e\u5206\u9875\u9700\u542f\u7528 JavaScript\uff09\uff1a'
+const SEO_LEAD_ZH =
+  '\u5b8c\u6574 SKU \u6e05\u5355\u5728\u4e0b\u65b9\u4ea4\u4e92\u5f0f\u4ea7\u54c1\u76ee\u5f55\u4e2d\u5c55\u793a\uff08\u9700\u542f\u7528 JavaScript\uff09\u3002\u672c\u6bb5\u4ec5\u5217\u51fa\u54c1\u7c7b\u3001\u6570\u91cf\u4e0e\u89c4\u683c\u533a\u95f4\uff08\u4e0d\u9010\u6761\u5217\u51fa\u4ea7\u54c1\u540d\uff09\u3002'
+
+const SEO_LEAD_EN =
+  'The full SKU list is shown in the interactive catalog below (JavaScript required). This block lists categories with counts and approximate spec ranges\u2014not every product title.'
+
+const RE_DN = /DN\s*(\d+)/gi
+const RE_MM = /(\d+)\s*mm/gi
+const RE_LEN_X_M = /\u00d7\s*(\d+(?:\.\d+)?)\s*m\b/gi
+const RE_LEN_X_MI = /\u00d7\s*(\d+(?:\.\d+)?)\s*\u7c73/gi
+const RE_NAME_LEAD_DN = /\(\s*DN\s*(\d+)\s*\u00d7/i
+const RE_NAME_LEAD_NUM = /\(\s*(\d+)\s*\u00d7\s*(\d+(?:\.\d+)?)\s*[\u7c73m]/i
 
 /**
- * @param {{ categories: { id: string, name: string }[], products: { categoryId: string, categoryName: string, name: string }[] }} data
+ * @param {{ specification?: string, name?: string, categoryName?: string }} product
+ * @param {string} categoryName
+ * @returns {{ dn: number|null, mm: number|null, len: number|null }}
+ */
+function parseProductDims(product, categoryName) {
+  const cat = categoryName || product.categoryName || ''
+  const sparseName = RE_FITTINGS.test(cat)
+  const spec = String(product.specification || '').trim()
+  const name = String(product.name || '')
+  const specNorm = spec.replace(/x/gi, '\u00d7')
+
+  /** @type {number|null} */
+  let dn = null
+  /** @type {number|null} */
+  let mm = null
+  /** @type {number|null} */
+  let len = null
+
+  const textForDn = sparseName ? specNorm : `${specNorm} ${name}`
+  RE_DN.lastIndex = 0
+  const dnM = RE_DN.exec(textForDn)
+  if (dnM) dn = Number(dnM[1])
+
+  const textForMm = sparseName ? specNorm : `${specNorm} ${name}`
+  RE_MM.lastIndex = 0
+  const mmM = RE_MM.exec(textForMm)
+  if (mmM) mm = Number(mmM[1])
+
+  const textForLen = sparseName ? specNorm : `${specNorm}\n${name}`
+  for (const re of [RE_LEN_X_M, RE_LEN_X_MI]) {
+    re.lastIndex = 0
+    const lm = re.exec(textForLen.replace(/x/gi, '\u00d7'))
+    if (lm) {
+      len = Number(lm[1])
+      break
+    }
+  }
+  if (len == null) {
+    const tail =
+      specNorm.match(new RegExp(`\\s*\\u00d7\\s*(\\d+(?:\\.\\d+)?)\\s*$`, 'i')) ||
+      specNorm.match(/(\d+(?:\.\d+)?)\s*m\s*$/i)
+    if (tail) len = Number(tail[1])
+  }
+
+  if (!sparseName) {
+    if (dn == null) {
+      const mDn = name.match(RE_NAME_LEAD_DN)
+      if (mDn) dn = Number(mDn[1])
+    }
+    if (mm == null && dn == null) {
+      const mNum = name.match(RE_NAME_LEAD_NUM)
+      if (mNum) {
+        mm = Number(mNum[1])
+        if (len == null && mNum[2]) len = Number(mNum[2])
+      }
+    }
+  }
+
+  if (Number.isNaN(dn)) dn = null
+  if (Number.isNaN(mm)) mm = null
+  if (Number.isNaN(len)) len = null
+  return { dn, mm, len }
+}
+
+/**
+ * @param {{ specification?: string, name?: string, categoryName?: string, categoryId?: string }[]} productsInCategory
+ * @param {'zh'|'en'} lang
+ * @returns {{ dnMin: number|null, dnMax: number|null, mmMin: number|null, mmMax: number|null, lenMin: number|null, lenMax: number|null }}
+ */
+function summarizeCategorySpecs(productsInCategory, lang) {
+  void lang
+  const categoryName = productsInCategory[0]?.categoryName || ''
+  const dns = []
+  const mms = []
+  const lens = []
+  for (const p of productsInCategory) {
+    const { dn, mm, len } = parseProductDims(p, categoryName)
+    if (dn != null) dns.push(dn)
+    if (mm != null) mms.push(mm)
+    if (len != null) lens.push(len)
+  }
+  const minMax = (arr) => {
+    if (!arr.length) return { min: null, max: null, n: 0 }
+    const s = [...new Set(arr)].sort((a, b) => a - b)
+    return { min: s[0], max: s[s.length - 1], n: s.length }
+  }
+  const d = minMax(dns)
+  const m = minMax(mms)
+  const l = minMax(lens)
+  return {
+    dnMin: d.min,
+    dnMax: d.max,
+    mmMin: m.min,
+    mmMax: m.max,
+    lenMin: l.min,
+    lenMax: l.max,
+    _distinctDn: d.n,
+    _distinctMm: m.n,
+    _distinctLen: l.n,
+  }
+}
+
+/**
+ * @param {number} min
+ * @param {number} max
+ * @param {number} distinct
+ */
+function formatDnSpan(min, max, distinct) {
+  if (min == null || max == null) return null
+  if (distinct < 2) return `DN${Math.round(min)}`
+  const fmt = (v) =>
+    Number.isInteger(v) || Math.abs(v - Math.round(v)) < 1e-6 ? String(Math.round(v)) : String(v)
+  return `DN${fmt(min)}\u2013DN${fmt(max)}`
+}
+
+/**
+ * @param {ReturnType<typeof summarizeCategorySpecs>} s
+ * @param {'zh'|'en'} lang
+ */
+function formatNumRange(min, max, distinct, lang) {
+  void lang
+  if (min == null || max == null) return null
+  if (distinct < 2) {
+    const v = min
+    return Number.isInteger(v) || Math.abs(v - Math.round(v)) < 1e-6 ? String(Math.round(v)) : String(v)
+  }
+  const fmt = (v) =>
+    Number.isInteger(v) || Math.abs(v - Math.round(v)) < 1e-6 ? String(Math.round(v)) : String(v)
+  return `${fmt(min)}\u2013${fmt(max)}`
+}
+
+/**
+ * @param {ReturnType<typeof summarizeCategorySpecs>} s
+ * @param {'zh'|'en'} lang
+ */
+function formatSpecSeoLine(s, lang) {
+  const parts = []
+  const hasDn = s.dnMin != null && s.dnMax != null
+  const hasMm = s.mmMin != null && s.mmMax != null
+  const dnSpan = hasDn ? formatDnSpan(s.dnMin, s.dnMax, s._distinctDn) : null
+  const mmRange = hasMm ? formatNumRange(s.mmMin, s.mmMax, s._distinctMm, lang) : null
+  const lenRange =
+    s.lenMin != null && s.lenMax != null
+      ? formatNumRange(s.lenMin, s.lenMax, s._distinctLen, lang)
+      : null
+
+  if (hasDn && dnSpan) {
+    parts.push(
+      lang === 'zh' ? `\u53e3\u5f84\u7ea6 ${dnSpan}` : `approx. ${dnSpan}`,
+    )
+  }
+  if (hasMm && mmRange) {
+    parts.push(
+      lang === 'zh'
+        ? `\u5916\u5f84\u7ea6 ${mmRange} mm`
+        : `OD ${mmRange} mm`,
+    )
+  }
+  if (lenRange != null) {
+    parts.push(
+      lang === 'zh'
+        ? `\u957f\u5ea6\u7ea6 ${lenRange} m`
+        : `length ${lenRange} m`,
+    )
+  }
+
+  if (!parts.length) return null
+  const body = parts.join(lang === 'zh' ? '\uff1b' : '; ')
+  const suffix =
+    lang === 'zh'
+      ? '\uff08\u4ee5\u5408\u540c\u4e0e\u6750\u8d28\u4e66\u4e3a\u51c6\uff09'
+      : ' (subject to datasheets).'
+  return `${body}${suffix}`
+}
+
+/**
+ * @param {{ categories: { id: string, name: string }[], products: { categoryId: string, categoryName: string, name: string, specification?: string }[] }} data
  * @param {'zh'|'en'} lang
  */
 function buildSeoCatalogHtml(data, lang) {
   const lines = []
   for (const c of data.categories || []) {
     const prods = (data.products || []).filter((p) => p.categoryId === c.id)
-    const names = prods.map((p) => escapeHtml(p.name)).join(SEO_SEP)
-    const countWrap = lang === 'zh' ? `\uff08${prods.length}\uff09` : ` (${prods.length}) `
-    lines.push(
-      `<li><strong>${escapeHtml(c.name)}</strong>${countWrap}${names ? `${lang === 'zh' ? '\uff1a' : ': '}${names}` : ''}</li>`,
-    )
+    const countWrap = lang === 'zh' ? `\uff08${prods.length}\uff09` : ` (${prods.length})`
+    const summary = summarizeCategorySpecs(prods, lang)
+    const specLine = prods.length ? formatSpecSeoLine(summary, lang) : null
+    const isFittings = RE_FITTINGS.test(c.name || '')
+    const fallbackCount =
+      lang === 'zh'
+        ? isFittings
+          ? `\u5171 ${prods.length} \u9879`
+          : `\u5171 ${prods.length} \u4e2a\u89c4\u683c`
+        : isFittings
+          ? `${prods.length} item${prods.length === 1 ? '' : 's'}`
+          : `${prods.length} SKU${prods.length === 1 ? '' : 's'}`
+    let li = `<li><strong>${escapeHtml(c.name)}</strong>${countWrap}`
+    if (prods.length > 0) {
+      const detail = specLine || fallbackCount
+      li += `<br><span class="fine">${escapeHtml(detail)}</span>`
+    }
+    li += '</li>'
+    lines.push(li)
   }
-  const title =
-    lang === 'zh'
-      ? SEO_TITLE_ZH
-      : 'Product catalog summary (search and pagination in the site require JavaScript):'
+  const title = lang === 'zh' ? SEO_LEAD_ZH : SEO_LEAD_EN
   return `<div class="seo-catalog-fallback" data-seo-catalog="1"><p class="fine">${escapeHtml(title)}</p><ul>${lines.join('')}</ul></div>`
 }
 
