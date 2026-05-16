@@ -1,5 +1,5 @@
 <h1 class="print-hide">Request for quote (RFQ)</h1>
-<p class="lead print-hide">This form uses a <code>mailto:</code> GET submission so it works on static hosting without a backend. Replace the placeholder email before production use.</p>
+<p class="lead print-hide">This form submits via <a href="https://formsubmit.co/" rel="noopener noreferrer">FormSubmit</a> (AJAX) to <code>sales@hypipelines.com</code>—no mail client required. Confirm the inbox on the FormSubmit side before go-live.</p>
 
 <section class="pipe-calc print-hide" data-pipe-calc aria-labelledby="pipe-calc-title">
   <h2 id="pipe-calc-title">Pipe weight estimator (steel, metric)</h2>
@@ -44,10 +44,14 @@
 </section>
 
 <div class="card print-hide" style="margin-bottom: 1.25rem;">
-  <h2>Formspree alternative (documented)</h2>
-  <p>To use <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a>, create a form, set <code>action="https://formspree.io/f/YOUR_ID"</code> with <code>method="POST"</code>, and remove the mailto fields. Keep honeypot/spam options enabled.</p>
+  <h2>About FormSubmit</h2>
+  <p>Same pattern as hy-main: <code>formsubmit.co/ajax/…</code>. To use a corporate endpoint instead, change <code>FORM_ENDPOINT</code> and field mapping in <code>src/rfq-submit.mjs</code>.</p>
 </div>
-<form class="rfq print-hide" action="mailto:sales@hypipelines.com" method="get" enctype="text/plain">
+<form class="rfq print-hide" action="https://formsubmit.co/ajax/sales@hypipelines.com" method="POST">
+  <input type="hidden" name="_subject" value="" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="true" />
+  <input type="text" name="_honey" value="" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;" />
   <div>
     <label for="company">Company / organization</label>
     <input id="company" name="company" required autocomplete="organization" />
@@ -77,6 +81,6 @@
     <label for="needdate">Target response date</label>
     <input id="needdate" name="needdate" type="date" />
   </div>
-  <p class="footnote">Browsers may warn before opening the mail client. For reliable capture, migrate to Formspree or a corporate endpoint.</p>
-  <button class="btn btn-primary" type="submit">Compose email</button>
+  <p class="footnote">Submissions use FormSubmit’s default spam checks (e.g. captcha). If delivery fails, retry or email sales@hypipelines.com directly.</p>
+  <button class="btn btn-primary" type="submit">Submit RFQ</button>
 </form>

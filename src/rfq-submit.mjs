@@ -8,16 +8,21 @@ const COPY = {
   en: {
     subject: 'Hengyuan Industrial Website RFQ',
     submit: 'Submit RFQ',
-    submitting: 'Submitting??',
+    submitting: 'Submitting…',
     success: 'Successfully submitted! We will contact you soon.',
-    error: 'Submission failed. Please try again later or email sales@hypipelines.com directly.',
+    error:
+      'Submission failed. Please try again later or email sales@hypipelines.com directly.',
   },
   zh: {
-    subject: '????????????RFQ??',
-    submit: '?????',
-    submitting: '??????',
-    success: '???????????????????????',
-    error: '??????????????????????????? sales@hypipelines.com??',
+    // ASCII escapes so CI / minify cannot mangle UTF-8 (hy-main embeds CJK in message-modal.js; we harden for Pages).
+    subject:
+      '\u6cb3\u5317\u4ea8\u6e90\u7f51\u7ad9\u8be2\u4ef7\uff08RFQ\uff09',
+    submit: '\u63d0\u4ea4\u8be2\u4ef7',
+    submitting: '\u6b63\u5728\u63d0\u4ea4\u2026',
+    success:
+      '\u63d0\u4ea4\u6210\u529f\uff01\u6211\u4eec\u4f1a\u5c3d\u5feb\u4e0e\u60a8\u8054\u7cfb\u3002',
+    error:
+      '\u63d0\u4ea4\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u6216\u76f4\u63a5\u53d1\u9001\u90ae\u4ef6\u81f3 sales@hypipelines.com\u3002',
   },
 }
 
@@ -39,32 +44,63 @@ function pipeSnapshot() {
   const len = document.querySelector('[data-pipe-length]')
   const rho = document.querySelector('[data-pipe-density]')
   if (!out || !od || !wall || !len || !rho) return ''
-  return `Pipe estimator: OD ${od.value || '??'} mm ?? wall ${wall.value || '??'} mm ?? length ${len.value || '??'} m ?? ?? ${rho.value || '??'} kg/m? ?? est. mass ${out.textContent || '??'}`
+  const zh = localeFromDocument() === 'zh'
+  if (zh) {
+    const dash = '\u2014'
+    return (
+      '\u91cd\u91cf\u4f30\u7b97\uff1a\u5916\u5f84 ' +
+      (od.value || dash) +
+      ' mm\uff0c\u58c1\u539a ' +
+      (wall.value || dash) +
+      ' mm\uff0c\u957f\u5ea6 ' +
+      (len.value || dash) +
+      ' m\uff0c\u5bc6\u5ea6 ' +
+      (rho.value || dash) +
+      ' kg/m\u00b3\uff0c\u4f30\u7b97\u8d28\u91cf ' +
+      (out.textContent || dash)
+    )
+  }
+  return `Pipe estimator: OD ${od.value || '—'} mm · wall ${wall.value || '—'} mm · length ${len.value || '—'} m · ρ ${rho.value || '—'} kg/m³ → est. mass ${out.textContent || '—'}`
 }
 
 function buildMessage(form) {
+  const zh = localeFromDocument() === 'zh'
   const company = form.company?.value?.trim() || ''
   const scope = form.scope?.value?.trim() || ''
   const standard = form.standard?.value?.trim() || ''
   const needdate = form.needdate?.value?.trim() || ''
   const snap = pipeSnapshot()
 
-  const parts = [
-    scope && `Scope:\n${scope}`,
-    standard && `Standards / data sheets: ${standard}`,
-    needdate && `Target response date: ${needdate}`,
-    company && `Company: ${company}`,
-    snap,
-    `Page: ${window.location.href}`,
-  ].filter(Boolean)
+  const parts = zh
+    ? [
+        scope && '\u8303\u56f4\u6458\u8981\uff1a\n' + scope,
+        standard &&
+          '\u9002\u7528\u6807\u51c6 / \u6570\u636e\u8868\uff1a' + standard,
+        needdate &&
+          '\u671f\u671b\u56de\u590d\u65e5\u671f\uff1a' + needdate,
+        company && '\u516c\u53f8 / \u673a\u6784\uff1a' + company,
+        snap,
+        '\u9875\u9762\uff1a' + window.location.href,
+      ]
+    : [
+        scope && `Scope:\n${scope}`,
+        standard && `Standards / data sheets: ${standard}`,
+        needdate && `Target response date: ${needdate}`,
+        company && `Company: ${company}`,
+        snap,
+        `Page: ${window.location.href}`,
+      ]
 
-  return parts.join('\n\n')
+  return parts.filter(Boolean).join('\n\n')
 }
 
 function buildPayload(form) {
   const company = form.company?.value?.trim() || ''
   const contact = form.contact?.value?.trim() || ''
-  const name = company && contact ? `${company} ?? ${contact}` : contact || company
+  const name =
+    company && contact
+      ? `${company} · ${contact}`
+      : contact || company
 
   const params = new URLSearchParams()
   params.set('_subject', t('subject'))
@@ -82,7 +118,8 @@ function buildPayload(form) {
 }
 
 async function postRfq(form) {
-  const response = await fetch(FORM_ENDPOINT, {
+  const action = form.getAttribute('action') || FORM_ENDPOINT
+  const response = await fetch(action, {
     method: 'POST',
     body: buildPayload(form),
     headers: {
@@ -90,7 +127,12 @@ async function postRfq(form) {
       Accept: 'application/json',
     },
   })
-  return response.json()
+  const text = await response.text()
+  try {
+    return JSON.parse(text)
+  } catch {
+    return { success: false }
+  }
 }
 
 function ensureFeedback(form) {
@@ -154,6 +196,9 @@ function hideFeedback(form) {
 export function initRfqSubmit() {
   const form = document.querySelector('form.rfq')
   if (!form) return
+
+  const subj = form.querySelector('input[name="_subject"]')
+  if (subj) subj.value = t('subject')
 
   const submitBtn = form.querySelector('button[type="submit"]')
   if (submitBtn && !submitBtn.dataset.rfqDefaultLabel) {

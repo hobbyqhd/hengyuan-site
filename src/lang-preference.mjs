@@ -42,11 +42,15 @@ export function alternateLocaleHref(pathname) {
 
 /** Root gateway: redirect using stored preference or browser locale. */
 export function runRootLocaleRedirect() {
+  const pathname = window.location.pathname
+  const firstSeg = pathname.replace(/^\//, '').split('/')[0]?.toLowerCase()
+  if (firstSeg === 'en' || firstSeg === 'zh') return
+
   const base =
     typeof import.meta !== 'undefined' && import.meta.env?.BASE_URL
       ? import.meta.env.BASE_URL
       : '/'
-  let path = window.location.pathname
+  let path = pathname
   if (path.startsWith(base)) {
     path = path.slice(base.length) || '/'
   }

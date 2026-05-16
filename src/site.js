@@ -1,4 +1,5 @@
 import './styles/main.css'
+import { initLangSwitch } from './lang-preference.mjs'
 import { initRfqSubmit } from './rfq-submit.mjs'
 
 function initNav() {
@@ -289,6 +290,7 @@ function initPrintQuote() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  initLangSwitch()
   initNav()
   initProductFamilyFilter()
   initCounters()

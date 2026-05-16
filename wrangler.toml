@@ -5,3 +5,5 @@ compatibility_date = "2025-05-01"
 
 [assets]
 directory = "./dist"
+# MPA: serve real /en/*.html and /zh/*.html — do not fall back to root index for missing paths
+not_found_handling = "404"

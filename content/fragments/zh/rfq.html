@@ -1,5 +1,5 @@
 <h1 class="print-hide">询价（RFQ）</h1>
-<p class="lead print-hide">本表单使用 <code>mailto:</code> 的 GET 方式，便于纯静态托管；正式上线前请替换占位邮箱。</p>
+<p class="lead print-hide">本表单通过 <a href="https://formsubmit.co/" rel="noopener noreferrer">FormSubmit</a> 以 AJAX 提交至 <code>sales@hypipelines.com</code>，无需邮件客户端；首次使用前请在 FormSubmit 侧确认收件邮箱并完成验证。</p>
 
 <section class="pipe-calc print-hide" data-pipe-calc aria-labelledby="pipe-calc-title-zh">
   <h2 id="pipe-calc-title-zh">钢管重量估算（碳钢，公制）</h2>
@@ -44,10 +44,14 @@
 </section>
 
 <div class="card print-hide" style="margin-bottom: 1.25rem;">
-  <h2>Formspree 备选（说明）</h2>
-  <p>在 <a href="https://formspree.io/" rel="noopener noreferrer">Formspree</a> 创建表单后，将 <code>action</code> 设为 <code>https://formspree.io/f/YOUR_ID</code>，<code>method="POST"</code>，并启用反垃圾选项。</p>
+  <h2>关于 FormSubmit</h2>
+  <p>当前实现与 hy-main 一致：使用 <code>formsubmit.co/ajax/…</code> 接口。若需改用企业自有接口，可替换 <code>src/rfq-submit.mjs</code> 中的 <code>FORM_ENDPOINT</code> 与字段映射。</p>
 </div>
-<form class="rfq print-hide" action="mailto:sales@hypipelines.com" method="get" enctype="text/plain">
+<form class="rfq print-hide" action="https://formsubmit.co/ajax/sales@hypipelines.com" method="POST">
+  <input type="hidden" name="_subject" value="" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="true" />
+  <input type="text" name="_honey" value="" autocomplete="off" tabindex="-1" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;" />
   <div>
     <label for="company">公司 / 机构</label>
     <input id="company" name="company" required autocomplete="organization" />
@@ -77,6 +81,6 @@
     <label for="needdate">期望回复日期</label>
     <input id="needdate" name="needdate" type="date" />
   </div>
-  <p class="footnote">浏览器可能在打开邮件客户端前提示；若需可靠收集，请迁移到 Formspree 或企业接口。</p>
-  <button class="btn btn-primary" type="submit">撰写邮件</button>
+  <p class="footnote">提交需通过人机验证（FormSubmit 默认开启）。若提交失败，请检查网络或稍后重试。</p>
+  <button class="btn btn-primary" type="submit">提交询价</button>
 </form>

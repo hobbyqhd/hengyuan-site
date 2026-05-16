@@ -70,6 +70,18 @@ for (const [label, file, needle] of [
     console.error(`verify-dist: ${label} missing data-lang-switch on language link`)
     process.exit(1)
   }
+  if (html.includes('/src/site.js') || html.includes('/src/styles/main.css')) {
+    console.error(`verify-dist: ${label} still references /src/* — vite build did not rewrite assets`)
+    process.exit(1)
+  }
+  if (!/<script[^>]+src="\/assets\/[^"]+\.js"/i.test(html)) {
+    console.error(`verify-dist: ${label} missing bundled /assets/*.js script`)
+    process.exit(1)
+  }
+  if (!/<link[^>]+href="\/assets\/[^"]+\.css"/i.test(html)) {
+    console.error(`verify-dist: ${label} missing bundled /assets/*.css stylesheet`)
+    process.exit(1)
+  }
 }
 
 console.log('verify-dist: ok (no QA hooks or javascript: URLs in dist)')
